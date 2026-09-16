@@ -1,0 +1,952 @@
+{
+  "seed": 42,
+  "coupon_construction": "Non-overlapping chronological blocks of 13 out-of-sample matches; fixtures may span several dates.",
+  "crowd_is_simulated": true,
+  "crowd_formula": "normalize(market ** exponent)",
+  "scenario_exponents": {
+    "market_like": 1.0,
+    "favourite_biased": 1.3,
+    "longshot_biased": 0.8
+  },
+  "objective_changed": false,
+  "total_coupons_per_scenario": 684,
+  "results": [
+    {
+      "scenario": "market_like",
+      "mode": "optimal",
+      "budget": 64,
+      "coupons": 684,
+      "average_singles": 8.032163742690058,
+      "average_doubles": 3.4195906432748537,
+      "average_triples": 1.5482456140350878,
+      "budget_utilization": 0.9193622076023392,
+      "combinations": {
+        "1": 3995,
+        "X": 0,
+        "2": 1499,
+        "1X": 214,
+        "12": 2046,
+        "X2": 79,
+        "1X2": 1059
+      },
+      "double_distribution": {
+        "1X": 0.09149209063702438,
+        "12": 0.8747327917913639,
+        "X2": 0.0337751175716118
+      },
+      "draw_coverage_fraction": 0.15204678362573099,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "market_like",
+      "mode": "optimal",
+      "budget": 128,
+      "coupons": 684,
+      "average_singles": 7.523391812865497,
+      "average_doubles": 3.1915204678362574,
+      "average_triples": 2.2850877192982457,
+      "budget_utilization": 0.880985014619883,
+      "combinations": {
+        "1": 3758,
+        "X": 0,
+        "2": 1388,
+        "1X": 302,
+        "12": 1776,
+        "X2": 105,
+        "1X2": 1563
+      },
+      "double_distribution": {
+        "1X": 0.13834173156207055,
+        "12": 0.8135593220338984,
+        "X2": 0.04809894640403115
+      },
+      "draw_coverage_fraction": 0.22154745838956366,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "market_like",
+      "mode": "optimal",
+      "budget": 256,
+      "coupons": 684,
+      "average_singles": 7.931286549707602,
+      "average_doubles": 0.18567251461988304,
+      "average_triples": 4.883040935672515,
+      "budget_utilization": 0.9494871619152047,
+      "combinations": {
+        "1": 3934,
+        "X": 0,
+        "2": 1491,
+        "1X": 4,
+        "12": 121,
+        "X2": 2,
+        "1X2": 3340
+      },
+      "double_distribution": {
+        "1X": 0.031496062992125984,
+        "12": 0.952755905511811,
+        "X2": 0.015748031496062992
+      },
+      "draw_coverage_fraction": 0.3762932973459289,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "market_like",
+      "mode": "optimal",
+      "budget": 512,
+      "coupons": 684,
+      "average_singles": 7.0,
+      "average_doubles": 1.0,
+      "average_triples": 5.0,
+      "budget_utilization": 0.94921875,
+      "combinations": {
+        "1": 3517,
+        "X": 0,
+        "2": 1271,
+        "1X": 213,
+        "12": 391,
+        "X2": 80,
+        "1X2": 3420
+      },
+      "double_distribution": {
+        "1X": 0.31140350877192985,
+        "12": 0.5716374269005848,
+        "X2": 0.11695906432748537
+      },
+      "draw_coverage_fraction": 0.4175663517768781,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "market_like",
+      "mode": "safe",
+      "budget": 64,
+      "coupons": 684,
+      "average_singles": 8.023391812865498,
+      "average_doubles": 3.4415204678362574,
+      "average_triples": 1.5350877192982457,
+      "budget_utilization": 0.920047514619883,
+      "combinations": {
+        "1": 3993,
+        "X": 0,
+        "2": 1495,
+        "1X": 216,
+        "12": 2059,
+        "X2": 79,
+        "1X2": 1050
+      },
+      "double_distribution": {
+        "1X": 0.09175870858113849,
+        "12": 0.8746813933729821,
+        "X2": 0.033559898045879354
+      },
+      "draw_coverage_fraction": 0.151259559154296,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "market_like",
+      "mode": "safe",
+      "budget": 128,
+      "coupons": 684,
+      "average_singles": 7.491228070175438,
+      "average_doubles": 3.2719298245614037,
+      "average_triples": 2.236842105263158,
+      "budget_utilization": 0.8834978070175439,
+      "combinations": {
+        "1": 3745,
+        "X": 0,
+        "2": 1379,
+        "1X": 309,
+        "12": 1822,
+        "X2": 107,
+        "1X2": 1530
+      },
+      "double_distribution": {
+        "1X": 0.1380697050938338,
+        "12": 0.8141197497765862,
+        "X2": 0.04781054512957998
+      },
+      "draw_coverage_fraction": 0.21884840305892939,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "market_like",
+      "mode": "safe",
+      "budget": 256,
+      "coupons": 684,
+      "average_singles": 7.931286549707602,
+      "average_doubles": 0.18567251461988304,
+      "average_triples": 4.883040935672515,
+      "budget_utilization": 0.9494871619152047,
+      "combinations": {
+        "1": 3934,
+        "X": 0,
+        "2": 1491,
+        "1X": 4,
+        "12": 121,
+        "X2": 2,
+        "1X2": 3340
+      },
+      "double_distribution": {
+        "1X": 0.031496062992125984,
+        "12": 0.952755905511811,
+        "X2": 0.015748031496062992
+      },
+      "draw_coverage_fraction": 0.3762932973459289,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "market_like",
+      "mode": "safe",
+      "budget": 512,
+      "coupons": 684,
+      "average_singles": 7.0,
+      "average_doubles": 1.0,
+      "average_triples": 5.0,
+      "budget_utilization": 0.94921875,
+      "combinations": {
+        "1": 3517,
+        "X": 0,
+        "2": 1271,
+        "1X": 213,
+        "12": 391,
+        "X2": 80,
+        "1X2": 3420
+      },
+      "double_distribution": {
+        "1X": 0.31140350877192985,
+        "12": 0.5716374269005848,
+        "X2": 0.11695906432748537
+      },
+      "draw_coverage_fraction": 0.4175663517768781,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "market_like",
+      "mode": "value",
+      "budget": 64,
+      "coupons": 684,
+      "average_singles": 8.046783625730994,
+      "average_doubles": 3.3830409356725144,
+      "average_triples": 1.5701754385964912,
+      "budget_utilization": 0.9182200292397661,
+      "combinations": {
+        "1": 4003,
+        "X": 0,
+        "2": 1501,
+        "1X": 203,
+        "12": 2033,
+        "X2": 78,
+        "1X2": 1074
+      },
+      "double_distribution": {
+        "1X": 0.08772687986171132,
+        "12": 0.8785652549697494,
+        "X2": 0.033707865168539325
+      },
+      "draw_coverage_fraction": 0.15238416554206027,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "market_like",
+      "mode": "value",
+      "budget": 128,
+      "coupons": 684,
+      "average_singles": 7.552631578947368,
+      "average_doubles": 3.1184210526315788,
+      "average_triples": 2.3289473684210527,
+      "budget_utilization": 0.8787006578947368,
+      "combinations": {
+        "1": 3770,
+        "X": 0,
+        "2": 1396,
+        "1X": 295,
+        "12": 1734,
+        "X2": 104,
+        "1X2": 1593
+      },
+      "double_distribution": {
+        "1X": 0.13830285982184717,
+        "12": 0.8129395218002813,
+        "X2": 0.04875761837787154
+      },
+      "draw_coverage_fraction": 0.22402159244264508,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "market_like",
+      "mode": "value",
+      "budget": 256,
+      "coupons": 684,
+      "average_singles": 7.931286549707602,
+      "average_doubles": 0.18567251461988304,
+      "average_triples": 4.883040935672515,
+      "budget_utilization": 0.9494871619152047,
+      "combinations": {
+        "1": 3934,
+        "X": 0,
+        "2": 1491,
+        "1X": 4,
+        "12": 121,
+        "X2": 2,
+        "1X2": 3340
+      },
+      "double_distribution": {
+        "1X": 0.031496062992125984,
+        "12": 0.952755905511811,
+        "X2": 0.015748031496062992
+      },
+      "draw_coverage_fraction": 0.3762932973459289,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "market_like",
+      "mode": "value",
+      "budget": 512,
+      "coupons": 684,
+      "average_singles": 7.0,
+      "average_doubles": 1.0,
+      "average_triples": 5.0,
+      "budget_utilization": 0.94921875,
+      "combinations": {
+        "1": 3517,
+        "X": 0,
+        "2": 1271,
+        "1X": 213,
+        "12": 391,
+        "X2": 80,
+        "1X2": 3420
+      },
+      "double_distribution": {
+        "1X": 0.31140350877192985,
+        "12": 0.5716374269005848,
+        "X2": 0.11695906432748537
+      },
+      "draw_coverage_fraction": 0.4175663517768781,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "favourite_biased",
+      "mode": "optimal",
+      "budget": 64,
+      "coupons": 684,
+      "average_singles": 7.783625730994152,
+      "average_doubles": 4.04093567251462,
+      "average_triples": 1.1754385964912282,
+      "budget_utilization": 0.9387792397660819,
+      "combinations": {
+        "1": 3887,
+        "X": 0,
+        "2": 1437,
+        "1X": 286,
+        "12": 2377,
+        "X2": 101,
+        "1X2": 804
+      },
+      "double_distribution": {
+        "1X": 0.10347322720694646,
+        "12": 0.8599855282199711,
+        "X2": 0.03654124457308249
+      },
+      "draw_coverage_fraction": 0.13394062078272603,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "favourite_biased",
+      "mode": "optimal",
+      "budget": 128,
+      "coupons": 684,
+      "average_singles": 7.280701754385965,
+      "average_doubles": 3.7982456140350878,
+      "average_triples": 1.9210526315789473,
+      "budget_utilization": 0.8999451754385965,
+      "combinations": {
+        "1": 3656,
+        "X": 0,
+        "2": 1324,
+        "1X": 372,
+        "12": 2097,
+        "X2": 129,
+        "1X2": 1314
+      },
+      "double_distribution": {
+        "1X": 0.14318706697459585,
+        "12": 0.8071593533487298,
+        "X2": 0.049653579676674366
+      },
+      "draw_coverage_fraction": 0.20411605937921729,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "favourite_biased",
+      "mode": "optimal",
+      "budget": 256,
+      "coupons": 684,
+      "average_singles": 7.915204678362573,
+      "average_doubles": 0.22660818713450293,
+      "average_triples": 4.858187134502924,
+      "budget_utilization": 0.9504751461988304,
+      "combinations": {
+        "1": 3926,
+        "X": 0,
+        "2": 1488,
+        "1X": 5,
+        "12": 148,
+        "X2": 2,
+        "1X2": 3323
+      },
+      "double_distribution": {
+        "1X": 0.03225806451612903,
+        "12": 0.9548387096774194,
+        "X2": 0.012903225806451613
+      },
+      "draw_coverage_fraction": 0.37449392712550605,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "favourite_biased",
+      "mode": "optimal",
+      "budget": 512,
+      "coupons": 684,
+      "average_singles": 7.0,
+      "average_doubles": 1.0,
+      "average_triples": 5.0,
+      "budget_utilization": 0.94921875,
+      "combinations": {
+        "1": 3515,
+        "X": 0,
+        "2": 1273,
+        "1X": 210,
+        "12": 396,
+        "X2": 78,
+        "1X2": 3420
+      },
+      "double_distribution": {
+        "1X": 0.30701754385964913,
+        "12": 0.5789473684210527,
+        "X2": 0.11403508771929824
+      },
+      "draw_coverage_fraction": 0.41700404858299595,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "favourite_biased",
+      "mode": "safe",
+      "budget": 64,
+      "coupons": 684,
+      "average_singles": 7.997076023391813,
+      "average_doubles": 3.507309941520468,
+      "average_triples": 1.4956140350877194,
+      "budget_utilization": 0.9221034356725146,
+      "combinations": {
+        "1": 3985,
+        "X": 0,
+        "2": 1485,
+        "1X": 222,
+        "12": 2095,
+        "X2": 82,
+        "1X2": 1023
+      },
+      "double_distribution": {
+        "1X": 0.09253855773238849,
+        "12": 0.8732805335556482,
+        "X2": 0.03418090871196332
+      },
+      "draw_coverage_fraction": 0.14923526765632028,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "favourite_biased",
+      "mode": "safe",
+      "budget": 128,
+      "coupons": 684,
+      "average_singles": 7.47953216374269,
+      "average_doubles": 3.301169590643275,
+      "average_triples": 2.219298245614035,
+      "budget_utilization": 0.8844115497076024,
+      "combinations": {
+        "1": 3741,
+        "X": 0,
+        "2": 1375,
+        "1X": 311,
+        "12": 1839,
+        "X2": 108,
+        "1X2": 1518
+      },
+      "double_distribution": {
+        "1X": 0.13773250664304695,
+        "12": 0.8144375553587245,
+        "X2": 0.047829937998228524
+      },
+      "draw_coverage_fraction": 0.21783625730994152,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "favourite_biased",
+      "mode": "safe",
+      "budget": 256,
+      "coupons": 684,
+      "average_singles": 7.926900584795321,
+      "average_doubles": 0.19736842105263158,
+      "average_triples": 4.875730994152047,
+      "budget_utilization": 0.9495614035087719,
+      "combinations": {
+        "1": 3932,
+        "X": 0,
+        "2": 1490,
+        "1X": 5,
+        "12": 128,
+        "X2": 2,
+        "1X2": 3335
+      },
+      "double_distribution": {
+        "1X": 0.037037037037037035,
+        "12": 0.9481481481481482,
+        "X2": 0.014814814814814815
+      },
+      "draw_coverage_fraction": 0.3758434547908232,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "favourite_biased",
+      "mode": "safe",
+      "budget": 512,
+      "coupons": 684,
+      "average_singles": 7.0,
+      "average_doubles": 1.0,
+      "average_triples": 5.0,
+      "budget_utilization": 0.94921875,
+      "combinations": {
+        "1": 3517,
+        "X": 0,
+        "2": 1271,
+        "1X": 213,
+        "12": 391,
+        "X2": 80,
+        "1X2": 3420
+      },
+      "double_distribution": {
+        "1X": 0.31140350877192985,
+        "12": 0.5716374269005848,
+        "X2": 0.11695906432748537
+      },
+      "draw_coverage_fraction": 0.4175663517768781,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "favourite_biased",
+      "mode": "value",
+      "budget": 64,
+      "coupons": 684,
+      "average_singles": 7.342105263157895,
+      "average_doubles": 5.144736842105263,
+      "average_triples": 0.5131578947368421,
+      "budget_utilization": 0.9732730263157895,
+      "combinations": {
+        "1": 3680,
+        "X": 0,
+        "2": 1342,
+        "1X": 476,
+        "12": 2863,
+        "X2": 180,
+        "1X2": 351
+      },
+      "double_distribution": {
+        "1X": 0.13526570048309178,
+        "12": 0.8135834043762432,
+        "X2": 0.05115089514066496
+      },
+      "draw_coverage_fraction": 0.11324786324786325,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "favourite_biased",
+      "mode": "value",
+      "budget": 128,
+      "coupons": 684,
+      "average_singles": 6.739766081871345,
+      "average_doubles": 5.150584795321637,
+      "average_triples": 1.1096491228070176,
+      "budget_utilization": 0.9422057748538012,
+      "combinations": {
+        "1": 3408,
+        "X": 0,
+        "2": 1202,
+        "1X": 598,
+        "12": 2698,
+        "X2": 227,
+        "1X2": 759
+      },
+      "double_distribution": {
+        "1X": 0.16974169741697417,
+        "12": 0.7658245813227363,
+        "X2": 0.06443372126028953
+      },
+      "draw_coverage_fraction": 0.17813765182186234,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "favourite_biased",
+      "mode": "value",
+      "budget": 256,
+      "coupons": 684,
+      "average_singles": 7.8464912280701755,
+      "average_doubles": 0.4093567251461988,
+      "average_triples": 4.744152046783626,
+      "budget_utilization": 0.9518172057748538,
+      "combinations": {
+        "1": 3898,
+        "X": 0,
+        "2": 1469,
+        "1X": 10,
+        "12": 267,
+        "X2": 3,
+        "1X2": 3245
+      },
+      "double_distribution": {
+        "1X": 0.03571428571428571,
+        "12": 0.9535714285714286,
+        "X2": 0.010714285714285714
+      },
+      "draw_coverage_fraction": 0.36639676113360325,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "favourite_biased",
+      "mode": "value",
+      "budget": 512,
+      "coupons": 684,
+      "average_singles": 6.995614035087719,
+      "average_doubles": 1.0116959064327486,
+      "average_triples": 4.992690058479532,
+      "budget_utilization": 0.9492929915935673,
+      "combinations": {
+        "1": 3511,
+        "X": 0,
+        "2": 1274,
+        "1X": 206,
+        "12": 417,
+        "X2": 69,
+        "1X2": 3415
+      },
+      "double_distribution": {
+        "1X": 0.2976878612716763,
+        "12": 0.6026011560693642,
+        "X2": 0.09971098265895954
+      },
+      "draw_coverage_fraction": 0.4149797570850202,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "longshot_biased",
+      "mode": "optimal",
+      "budget": 64,
+      "coupons": 684,
+      "average_singles": 8.140350877192983,
+      "average_doubles": 3.1491228070175437,
+      "average_triples": 1.7105263157894737,
+      "budget_utilization": 0.9109100877192983,
+      "combinations": {
+        "1": 4047,
+        "X": 0,
+        "2": 1521,
+        "1X": 178,
+        "12": 1911,
+        "X2": 65,
+        "1X2": 1170
+      },
+      "double_distribution": {
+        "1X": 0.08263695450324977,
+        "12": 0.8871866295264624,
+        "X2": 0.030176415970287838
+      },
+      "draw_coverage_fraction": 0.15890688259109312,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "longshot_biased",
+      "mode": "optimal",
+      "budget": 128,
+      "coupons": 684,
+      "average_singles": 7.628654970760234,
+      "average_doubles": 2.9283625730994154,
+      "average_triples": 2.442982456140351,
+      "budget_utilization": 0.8727613304093568,
+      "combinations": {
+        "1": 3806,
+        "X": 0,
+        "2": 1412,
+        "1X": 279,
+        "12": 1624,
+        "X2": 100,
+        "1X2": 1671
+      },
+      "double_distribution": {
+        "1X": 0.13929106340489267,
+        "12": 0.8107838242636046,
+        "X2": 0.04992511233150274
+      },
+      "draw_coverage_fraction": 0.23054430949167792,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "longshot_biased",
+      "mode": "optimal",
+      "budget": 256,
+      "coupons": 684,
+      "average_singles": 7.941520467836257,
+      "average_doubles": 0.15935672514619884,
+      "average_triples": 4.899122807017544,
+      "budget_utilization": 0.9489560489766082,
+      "combinations": {
+        "1": 3938,
+        "X": 0,
+        "2": 1494,
+        "1X": 3,
+        "12": 105,
+        "X2": 1,
+        "1X2": 3351
+      },
+      "double_distribution": {
+        "1X": 0.027522935779816515,
+        "12": 0.963302752293578,
+        "X2": 0.009174311926605505
+      },
+      "draw_coverage_fraction": 0.37730544309491676,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "longshot_biased",
+      "mode": "optimal",
+      "budget": 512,
+      "coupons": 684,
+      "average_singles": 7.0,
+      "average_doubles": 1.0,
+      "average_triples": 5.0,
+      "budget_utilization": 0.94921875,
+      "combinations": {
+        "1": 3515,
+        "X": 0,
+        "2": 1273,
+        "1X": 215,
+        "12": 390,
+        "X2": 79,
+        "1X2": 3420
+      },
+      "double_distribution": {
+        "1X": 0.31432748538011696,
+        "12": 0.5701754385964912,
+        "X2": 0.1154970760233918
+      },
+      "draw_coverage_fraction": 0.4176788124156545,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "longshot_biased",
+      "mode": "safe",
+      "budget": 64,
+      "coupons": 684,
+      "average_singles": 8.032163742690058,
+      "average_doubles": 3.4195906432748537,
+      "average_triples": 1.5482456140350878,
+      "budget_utilization": 0.9193622076023392,
+      "combinations": {
+        "1": 3995,
+        "X": 0,
+        "2": 1499,
+        "1X": 214,
+        "12": 2046,
+        "X2": 79,
+        "1X2": 1059
+      },
+      "double_distribution": {
+        "1X": 0.09149209063702438,
+        "12": 0.8747327917913639,
+        "X2": 0.0337751175716118
+      },
+      "draw_coverage_fraction": 0.15204678362573099,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "longshot_biased",
+      "mode": "safe",
+      "budget": 128,
+      "coupons": 684,
+      "average_singles": 7.511695906432749,
+      "average_doubles": 3.2207602339181287,
+      "average_triples": 2.267543859649123,
+      "budget_utilization": 0.8818987573099415,
+      "combinations": {
+        "1": 3753,
+        "X": 0,
+        "2": 1385,
+        "1X": 305,
+        "12": 1792,
+        "X2": 106,
+        "1X2": 1551
+      },
+      "double_distribution": {
+        "1X": 0.13844757149341808,
+        "12": 0.8134362233318202,
+        "X2": 0.048116205174761686
+      },
+      "draw_coverage_fraction": 0.22064777327935223,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "longshot_biased",
+      "mode": "safe",
+      "budget": 256,
+      "coupons": 684,
+      "average_singles": 7.931286549707602,
+      "average_doubles": 0.18567251461988304,
+      "average_triples": 4.883040935672515,
+      "budget_utilization": 0.9494871619152047,
+      "combinations": {
+        "1": 3934,
+        "X": 0,
+        "2": 1491,
+        "1X": 4,
+        "12": 121,
+        "X2": 2,
+        "1X2": 3340
+      },
+      "double_distribution": {
+        "1X": 0.031496062992125984,
+        "12": 0.952755905511811,
+        "X2": 0.015748031496062992
+      },
+      "draw_coverage_fraction": 0.3762932973459289,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "longshot_biased",
+      "mode": "safe",
+      "budget": 512,
+      "coupons": 684,
+      "average_singles": 7.0,
+      "average_doubles": 1.0,
+      "average_triples": 5.0,
+      "budget_utilization": 0.94921875,
+      "combinations": {
+        "1": 3517,
+        "X": 0,
+        "2": 1271,
+        "1X": 213,
+        "12": 391,
+        "X2": 80,
+        "1X2": 3420
+      },
+      "double_distribution": {
+        "1X": 0.31140350877192985,
+        "12": 0.5716374269005848,
+        "X2": 0.11695906432748537
+      },
+      "draw_coverage_fraction": 0.4175663517768781,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "longshot_biased",
+      "mode": "value",
+      "budget": 64,
+      "coupons": 684,
+      "average_singles": 8.312865497076023,
+      "average_doubles": 2.7178362573099415,
+      "average_triples": 1.969298245614035,
+      "budget_utilization": 0.8974323830409356,
+      "combinations": {
+        "1": 4123,
+        "X": 0,
+        "2": 1563,
+        "1X": 139,
+        "12": 1671,
+        "X2": 49,
+        "1X2": 1347
+      },
+      "double_distribution": {
+        "1X": 0.07477138246369015,
+        "12": 0.898870360408822,
+        "X2": 0.026358257127487898
+      },
+      "draw_coverage_fraction": 0.17262708052181736,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "longshot_biased",
+      "mode": "value",
+      "budget": 128,
+      "coupons": 684,
+      "average_singles": 7.733918128654971,
+      "average_doubles": 2.665204678362573,
+      "average_triples": 2.6008771929824563,
+      "budget_utilization": 0.8645376461988304,
+      "combinations": {
+        "1": 3850,
+        "X": 0,
+        "2": 1440,
+        "1X": 259,
+        "12": 1474,
+        "X2": 90,
+        "1X2": 1779
+      },
+      "double_distribution": {
+        "1X": 0.14207350521119033,
+        "12": 0.8085573230938015,
+        "X2": 0.04936917169500823
+      },
+      "draw_coverage_fraction": 0.23931623931623933,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "longshot_biased",
+      "mode": "value",
+      "budget": 256,
+      "coupons": 684,
+      "average_singles": 7.944444444444445,
+      "average_doubles": 0.15350877192982457,
+      "average_triples": 4.902046783625731,
+      "budget_utilization": 0.9481907894736842,
+      "combinations": {
+        "1": 3938,
+        "X": 0,
+        "2": 1496,
+        "1X": 2,
+        "12": 103,
+        "X2": 0,
+        "1X2": 3353
+      },
+      "double_distribution": {
+        "1X": 0.01904761904761905,
+        "12": 0.9809523809523809,
+        "X2": 0.0
+      },
+      "draw_coverage_fraction": 0.37730544309491676,
+      "mean_draw_probability": 0.26129635732104267
+    },
+    {
+      "scenario": "longshot_biased",
+      "mode": "value",
+      "budget": 512,
+      "coupons": 684,
+      "average_singles": 7.0,
+      "average_doubles": 1.0,
+      "average_triples": 5.0,
+      "budget_utilization": 0.94921875,
+      "combinations": {
+        "1": 3515,
+        "X": 0,
+        "2": 1273,
+        "1X": 217,
+        "12": 389,
+        "X2": 78,
+        "1X2": 3420
+      },
+      "double_distribution": {
+        "1X": 0.3172514619883041,
+        "12": 0.5687134502923976,
+        "X2": 0.11403508771929824
+      },
+      "draw_coverage_fraction": 0.4177912730544309,
+      "mean_draw_probability": 0.26129635732104267
+    }
+  ],
+  "explanation": "The objective rewards covered probability and crowd-relative value, not equal counts of each sign. When home and away probabilities exceed draw, 12 can be the best double. Synthetic crowd exponents change this preference. This is not evidence of an objective bug or a payout advantage."
+}

@@ -1,0 +1,3773 @@
+{
+  "verified_at": "2026-09-09T19:40:43.492959+00:00",
+  "dataset": {
+    "E1": 8892,
+    "E2": 8739,
+    "E0": 6110
+  },
+  "dataset_total": 23741,
+  "training_matches": 23740,
+  "feature_count": 3,
+  "modelVersion": "2.0",
+  "activeModel": "market",
+  "systems": [
+    {
+      "budget": 64.0,
+      "mode": "optimal",
+      "rowCount": 54,
+      "cost": 54.0,
+      "costPerRow": 1.0,
+      "singles": 9,
+      "doubles": 1,
+      "triples": 3,
+      "selections": [
+        [
+          "1"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "objectiveScore": -6.995900174952845,
+      "metrics": {
+        "coverageScore": 0.6075484895224049,
+        "allCorrectProbability": 0.0015365697923015213,
+        "riskScore": 0.3924515104775951,
+        "valueIndex": 0.9646051459854932
+      }
+    },
+    {
+      "budget": 128.0,
+      "mode": "optimal",
+      "rowCount": 108,
+      "cost": 108.0,
+      "costPerRow": 1.0,
+      "singles": 8,
+      "doubles": 2,
+      "triples": 3,
+      "selections": [
+        [
+          "1"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "objectiveScore": -6.499127352862254,
+      "metrics": {
+        "coverageScore": 0.629107939100977,
+        "allCorrectProbability": 0.002417837761415629,
+        "riskScore": 0.37089206089902305,
+        "valueIndex": 0.9729528367606062
+      }
+    },
+    {
+      "budget": 256.0,
+      "mode": "optimal",
+      "rowCount": 243,
+      "cost": 243.0,
+      "costPerRow": 1.0,
+      "singles": 8,
+      "doubles": 0,
+      "triples": 5,
+      "selections": [
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "objectiveScore": -5.899488606792626,
+      "metrics": {
+        "coverageScore": 0.6585817783773432,
+        "allCorrectProbability": 0.004384562210170992,
+        "riskScore": 0.3414182216226568,
+        "valueIndex": 0.9779348108607352
+      }
+    },
+    {
+      "budget": 512.0,
+      "mode": "optimal",
+      "rowCount": 486,
+      "cost": 486.0,
+      "costPerRow": 1.0,
+      "singles": 7,
+      "doubles": 1,
+      "triples": 5,
+      "selections": [
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "objectiveScore": -5.416024170816418,
+      "metrics": {
+        "coverageScore": 0.6899596099226233,
+        "allCorrectProbability": 0.008029854643839067,
+        "riskScore": 0.3100403900773767,
+        "valueIndex": 0.9647711022172986
+      }
+    },
+    {
+      "budget": 64.0,
+      "mode": "safe",
+      "rowCount": 54,
+      "cost": 54.0,
+      "costPerRow": 1.0,
+      "singles": 9,
+      "doubles": 1,
+      "triples": 3,
+      "selections": [
+        [
+          "1"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "objectiveScore": -9.18422255750496,
+      "metrics": {
+        "coverageScore": 0.6116902529187096,
+        "allCorrectProbability": 0.0016784572440628825,
+        "riskScore": 0.3883097470812904,
+        "valueIndex": 0.9413577615775538
+      }
+    },
+    {
+      "budget": 128.0,
+      "mode": "safe",
+      "rowCount": 108,
+      "cost": 108.0,
+      "costPerRow": 1.0,
+      "singles": 8,
+      "doubles": 2,
+      "triples": 3,
+      "selections": [
+        [
+          "1"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "objectiveScore": -8.52760110343408,
+      "metrics": {
+        "coverageScore": 0.6351873977179895,
+        "allCorrectProbability": 0.002739834618984999,
+        "riskScore": 0.3648126022820105,
+        "valueIndex": 0.9398525673383405
+      }
+    },
+    {
+      "budget": 256.0,
+      "mode": "safe",
+      "rowCount": 243,
+      "cost": 243.0,
+      "costPerRow": 1.0,
+      "singles": 8,
+      "doubles": 0,
+      "triples": 5,
+      "selections": [
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "objectiveScore": -7.641027016726969,
+      "metrics": {
+        "coverageScore": 0.6681929526818333,
+        "allCorrectProbability": 0.005293276514880002,
+        "riskScore": 0.3318070473181667,
+        "valueIndex": 0.9369200850041032
+      }
+    },
+    {
+      "budget": 512.0,
+      "mode": "safe",
+      "rowCount": 486,
+      "cost": 486.0,
+      "costPerRow": 1.0,
+      "singles": 7,
+      "doubles": 1,
+      "triples": 5,
+      "selections": [
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "objectiveScore": -6.994551252039439,
+      "metrics": {
+        "coverageScore": 0.6927928996854904,
+        "allCorrectProbability": 0.008469242423808004,
+        "riskScore": 0.3072071003145096,
+        "valueIndex": 0.9501527162190735
+      }
+    },
+    {
+      "budget": 64.0,
+      "mode": "value",
+      "rowCount": 54,
+      "cost": 54.0,
+      "costPerRow": 1.0,
+      "singles": 9,
+      "doubles": 1,
+      "triples": 3,
+      "selections": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "objectiveScore": -5.573497818846014,
+      "metrics": {
+        "coverageScore": 0.5467231192272525,
+        "allCorrectProbability": 0.0003899210759421961,
+        "riskScore": 0.4532768807727475,
+        "valueIndex": 1.0773127047890143
+      }
+    },
+    {
+      "budget": 128.0,
+      "mode": "value",
+      "rowCount": 108,
+      "cost": 108.0,
+      "costPerRow": 1.0,
+      "singles": 8,
+      "doubles": 2,
+      "triples": 3,
+      "selections": [
+        [
+          "1"
+        ],
+        [
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "X",
+          "2"
+        ],
+        [
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "objectiveScore": -5.189780126907231,
+      "metrics": {
+        "coverageScore": 0.5635035328211486,
+        "allCorrectProbability": 0.0005776388051235283,
+        "riskScore": 0.4364964671788514,
+        "valueIndex": 1.0854262823991532
+      }
+    },
+    {
+      "budget": 256.0,
+      "mode": "value",
+      "rowCount": 216,
+      "cost": 216.0,
+      "costPerRow": 1.0,
+      "singles": 7,
+      "doubles": 3,
+      "triples": 3,
+      "selections": [
+        [
+          "1"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "X",
+          "2"
+        ],
+        [
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "objectiveScore": -4.820734973349363,
+      "metrics": {
+        "coverageScore": 0.5965564361238791,
+        "allCorrectProbability": 0.001211908865651324,
+        "riskScore": 0.4034435638761209,
+        "valueIndex": 1.06972115841897
+      }
+    },
+    {
+      "budget": 512.0,
+      "mode": "value",
+      "rowCount": 486,
+      "cost": 486.0,
+      "costPerRow": 1.0,
+      "singles": 7,
+      "doubles": 1,
+      "triples": 5,
+      "selections": [
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "objectiveScore": -4.351677606770722,
+      "metrics": {
+        "coverageScore": 0.6414691872333967,
+        "allCorrectProbability": 0.003113761899256048,
+        "riskScore": 0.35853081276660326,
+        "valueIndex": 1.0499254201749848
+      }
+    }
+  ],
+  "demo": {
+    "couponId": "demo-13",
+    "demo": true,
+    "matches": [
+      {
+        "homeTeam": "Arsenal",
+        "awayTeam": "Everton",
+        "date": "2026-09-12",
+        "league": "E0",
+        "marketOdds": {
+          "home": 1.55,
+          "draw": 4.4,
+          "away": 6.4
+        },
+        "oddsSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "number": 1,
+        "crowd": {
+          "home": 0.72,
+          "draw": 0.18,
+          "away": 0.1
+        },
+        "crowdSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "matchId": "15d680f4d3cc3dd9f0d3034e17600cb9",
+        "model": {
+          "home": 0.6271714922048999,
+          "draw": 0.22093541202672606,
+          "away": 0.15189309576837418
+        },
+        "market": {
+          "home": 0.6271714922048999,
+          "draw": 0.22093541202672606,
+          "away": 0.15189309576837418
+        },
+        "source": "market_baseline",
+        "warnings": [],
+        "features": {
+          "league": "E0",
+          "home_elo_before": 1953.0165379515836,
+          "away_elo_before": 1730.8038289917263,
+          "elo_difference": 287.2127089598573,
+          "market_prob_home": 0.6271714922048999,
+          "market_prob_draw": 0.22093541202672606,
+          "market_prob_away": 0.15189309576837418,
+          "days_since_last_match_home": 6,
+          "home_points_avg_5": 3.0,
+          "home_venue_points_avg_5": 3.0,
+          "home_goals_for_avg_5": 1.8,
+          "home_venue_goals_for_avg_5": 2.0,
+          "home_goals_against_avg_5": 0.4,
+          "home_venue_goals_against_avg_5": 0.2,
+          "home_shots_avg_5": 14.6,
+          "home_venue_shots_avg_5": 15.6,
+          "home_sot_avg_5": 5.4,
+          "home_venue_sot_avg_5": 6.2,
+          "home_points_avg_10": 2.4,
+          "home_venue_points_avg_10": 2.4,
+          "home_goals_for_avg_10": 1.6,
+          "home_venue_goals_for_avg_10": 2.0,
+          "home_goals_against_avg_10": 0.6,
+          "home_venue_goals_against_avg_10": 0.7,
+          "home_shots_avg_10": 14.1,
+          "home_venue_shots_avg_10": 16.1,
+          "home_sot_avg_10": 5.0,
+          "home_venue_sot_avg_10": 5.5,
+          "days_since_last_match_away": 6,
+          "away_points_avg_5": 1.0,
+          "away_venue_points_avg_5": 0.6,
+          "away_goals_for_avg_5": 1.2,
+          "away_venue_goals_for_avg_5": 1.2,
+          "away_goals_against_avg_5": 1.4,
+          "away_venue_goals_against_avg_5": 1.6,
+          "away_shots_avg_5": 13.0,
+          "away_venue_shots_avg_5": 11.8,
+          "away_sot_avg_5": 5.0,
+          "away_venue_sot_avg_5": 5.2,
+          "away_points_avg_10": 0.8,
+          "away_venue_points_avg_10": 1.3,
+          "away_goals_for_avg_10": 1.5,
+          "away_venue_goals_for_avg_10": 1.3,
+          "away_goals_against_avg_10": 1.8,
+          "away_venue_goals_against_avg_10": 1.4,
+          "away_shots_avg_10": 12.7,
+          "away_venue_shots_avg_10": 10.9,
+          "away_sot_avg_10": 5.1,
+          "away_venue_sot_avg_10": 4.4,
+          "rest_difference": 0
+        },
+        "form": {
+          "home": [
+            {
+              "date": "2026-05-18",
+              "opponent": "Burnley",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 1.0,
+              "goals_against": 0.0,
+              "shots": 13.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-05-24",
+              "opponent": "Crystal Palace",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 1.0,
+              "shots": 17.0,
+              "sot": 7.0
+            },
+            {
+              "date": "2026-08-21",
+              "opponent": "Coventry",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 3.0,
+              "goals_against": 0.0,
+              "shots": 20.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-08-31",
+              "opponent": "Aston Villa",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 1.0,
+              "goals_against": 0.0,
+              "shots": 7.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-09-06",
+              "opponent": "Chelsea",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 1.0,
+              "shots": 16.0,
+              "sot": 9.0
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-05-17",
+              "opponent": "Sunderland",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 3.0,
+              "shots": 10.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-05-24",
+              "opponent": "Tottenham",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 1.0,
+              "shots": 8.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "Crystal Palace",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 0.0,
+              "shots": 16.0,
+              "sot": 5.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "Bournemouth",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 1.0,
+              "goals_against": 1.0,
+              "shots": 13.0,
+              "sot": 7.0
+            },
+            {
+              "date": "2026-09-06",
+              "opponent": "Manchester United",
+              "venue": "home",
+              "points": 1.0,
+              "goals_for": 2.0,
+              "goals_against": 2.0,
+              "shots": 18.0,
+              "sot": 6.0
+            }
+          ]
+        },
+        "activeModel": "Marknadsbaseline",
+        "modelVersion": "2.0",
+        "newsAffectsProbabilities": false,
+        "edge": {
+          "home": -0.0928285077951001,
+          "draw": 0.04093541202672607,
+          "away": 0.05189309576837417
+        },
+        "value": {
+          "home": 0.8710715169512498,
+          "draw": 1.2274189557040338,
+          "away": 1.5189309576837418
+        },
+        "valueFloorApplied": false,
+        "recommendation": [
+          "1"
+        ],
+        "mostLikely": "1",
+        "bestValue": "2",
+        "explanation": "Varning: 1 är mest sannolikt men överstreckat med 9.3 procentenheter. Systemval: 1."
+      },
+      {
+        "homeTeam": "Fulham",
+        "awayTeam": "Brighton",
+        "date": "2026-09-12",
+        "league": "E0",
+        "marketOdds": {
+          "home": 2.55,
+          "draw": 3.4,
+          "away": 2.8
+        },
+        "oddsSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "number": 2,
+        "crowd": {
+          "home": 0.43,
+          "draw": 0.29,
+          "away": 0.28
+        },
+        "crowdSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "matchId": "0b39fe486437fb364c1c4e78ebf821fc",
+        "model": {
+          "home": 0.37583892617449666,
+          "draw": 0.28187919463087246,
+          "away": 0.3422818791946309
+        },
+        "market": {
+          "home": 0.37583892617449666,
+          "draw": 0.28187919463087246,
+          "away": 0.3422818791946309
+        },
+        "source": "market_baseline",
+        "warnings": [],
+        "features": {
+          "league": "E0",
+          "home_elo_before": 1697.5928607280398,
+          "away_elo_before": 1757.2445116732652,
+          "elo_difference": 5.348349054774644,
+          "market_prob_home": 0.37583892617449666,
+          "market_prob_draw": 0.28187919463087246,
+          "market_prob_away": 0.3422818791946309,
+          "days_since_last_match_home": 7,
+          "home_points_avg_5": 0.8,
+          "home_venue_points_avg_5": 1.2,
+          "home_goals_for_avg_5": 1.4,
+          "home_venue_goals_for_avg_5": 1.4,
+          "home_goals_against_avg_5": 1.6,
+          "home_venue_goals_against_avg_5": 1.4,
+          "home_shots_avg_5": 16.8,
+          "home_venue_shots_avg_5": 17.4,
+          "home_sot_avg_5": 4.6,
+          "home_venue_sot_avg_5": 5.2,
+          "home_points_avg_10": 0.8,
+          "home_venue_points_avg_10": 1.5,
+          "home_goals_for_avg_10": 0.8,
+          "home_venue_goals_for_avg_10": 1.5,
+          "home_goals_against_avg_10": 1.4,
+          "home_venue_goals_against_avg_10": 1.3,
+          "home_shots_avg_10": 15.1,
+          "home_venue_shots_avg_10": 16.5,
+          "home_sot_avg_10": 3.6,
+          "home_venue_sot_avg_10": 4.8,
+          "days_since_last_match_away": 7,
+          "away_points_avg_5": 0.8,
+          "away_venue_points_avg_5": 0.8,
+          "away_goals_for_avg_5": 1.6,
+          "away_venue_goals_for_avg_5": 1.6,
+          "away_goals_against_avg_5": 1.8,
+          "away_venue_goals_against_avg_5": 2.0,
+          "away_shots_avg_5": 17.6,
+          "away_venue_shots_avg_5": 14.0,
+          "away_sot_avg_5": 5.4,
+          "away_venue_sot_avg_5": 5.4,
+          "away_points_avg_10": 1.4,
+          "away_venue_points_avg_10": 1.1,
+          "away_goals_for_avg_10": 1.9,
+          "away_venue_goals_for_avg_10": 1.3,
+          "away_goals_against_avg_10": 1.4,
+          "away_venue_goals_against_avg_10": 1.4,
+          "away_shots_avg_10": 15.3,
+          "away_venue_shots_avg_10": 12.1,
+          "away_sot_avg_10": 5.5,
+          "away_venue_sot_avg_10": 4.9,
+          "rest_difference": 0
+        },
+        "form": {
+          "home": [
+            {
+              "date": "2026-05-17",
+              "opponent": "Wolverhampton Wanderers",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 1.0,
+              "goals_against": 1.0,
+              "shots": 13.0,
+              "sot": 5.0
+            },
+            {
+              "date": "2026-05-24",
+              "opponent": "Newcastle",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 0.0,
+              "shots": 21.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-08-24",
+              "opponent": "Chelsea",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 2.0,
+              "goals_against": 3.0,
+              "shots": 14.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-08-30",
+              "opponent": "Sunderland",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 1.0,
+              "shots": 11.0,
+              "sot": 0.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Crystal Palace",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 2.0,
+              "goals_against": 3.0,
+              "shots": 25.0,
+              "sot": 6.0
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-05-17",
+              "opponent": "Leeds",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 1.0,
+              "shots": 19.0,
+              "sot": 8.0
+            },
+            {
+              "date": "2026-05-24",
+              "opponent": "Manchester United",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 3.0,
+              "shots": 13.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-08-23",
+              "opponent": "Aston Villa",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 4.0,
+              "goals_against": 0.0,
+              "shots": 21.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-08-30",
+              "opponent": "Chelsea",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 3.0,
+              "goals_against": 4.0,
+              "shots": 15.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Leeds",
+              "venue": "home",
+              "points": 1.0,
+              "goals_for": 1.0,
+              "goals_against": 1.0,
+              "shots": 20.0,
+              "sot": 5.0
+            }
+          ]
+        },
+        "activeModel": "Marknadsbaseline",
+        "modelVersion": "2.0",
+        "newsAffectsProbabilities": false,
+        "edge": {
+          "home": -0.054161073825503336,
+          "draw": -0.008120805369127515,
+          "away": 0.06228187919463085
+        },
+        "value": {
+          "home": 0.8740440143592946,
+          "draw": 0.9719972228650775,
+          "away": 1.2224352828379672
+        },
+        "valueFloorApplied": false,
+        "recommendation": [
+          "1",
+          "X",
+          "2"
+        ],
+        "mostLikely": "1",
+        "bestValue": "2",
+        "explanation": "Mest sannolikt: 1. Högst värdeindex: 2. Systemet väljer 1X2 inom kupongens budget."
+      },
+      {
+        "homeTeam": "Leeds",
+        "awayTeam": "Chelsea",
+        "date": "2026-09-12",
+        "league": "E0",
+        "marketOdds": {
+          "home": 4.2,
+          "draw": 3.8,
+          "away": 1.85
+        },
+        "oddsSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "number": 3,
+        "crowd": {
+          "home": 0.2,
+          "draw": 0.24,
+          "away": 0.56
+        },
+        "crowdSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "matchId": "1bb2c566550a49c416b7bb67bab74959",
+        "model": {
+          "home": 0.2285435630689207,
+          "draw": 0.2526007802340703,
+          "away": 0.5188556566970092
+        },
+        "market": {
+          "home": 0.2285435630689207,
+          "draw": 0.2526007802340703,
+          "away": 0.5188556566970092
+        },
+        "source": "market_baseline",
+        "warnings": [],
+        "features": {
+          "league": "E0",
+          "home_elo_before": 1750.2945389476881,
+          "away_elo_before": 1771.1014759240259,
+          "elo_difference": 44.19306302366226,
+          "market_prob_home": 0.2285435630689207,
+          "market_prob_draw": 0.2526007802340703,
+          "market_prob_away": 0.5188556566970092,
+          "days_since_last_match_home": 7,
+          "home_points_avg_5": 1.6,
+          "home_venue_points_avg_5": 2.2,
+          "home_goals_for_avg_5": 0.8,
+          "home_venue_goals_for_avg_5": 1.6,
+          "home_goals_against_avg_5": 1.0,
+          "home_venue_goals_against_avg_5": 0.4,
+          "home_shots_avg_5": 10.6,
+          "home_venue_shots_avg_5": 13.6,
+          "home_sot_avg_5": 2.8,
+          "home_venue_sot_avg_5": 4.2,
+          "home_points_avg_10": 1.9,
+          "home_venue_points_avg_10": 1.7,
+          "home_goals_for_avg_10": 1.5,
+          "home_venue_goals_for_avg_10": 1.2,
+          "home_goals_against_avg_10": 1.0,
+          "home_venue_goals_against_avg_10": 0.9,
+          "home_shots_avg_10": 12.4,
+          "home_venue_shots_avg_10": 13.1,
+          "home_sot_avg_10": 4.1,
+          "home_venue_sot_avg_10": 3.8,
+          "days_since_last_match_away": 6,
+          "away_points_avg_5": 1.8,
+          "away_venue_points_avg_5": 0.8,
+          "away_goals_for_avg_5": 2.2,
+          "away_venue_goals_for_avg_5": 1.2,
+          "away_goals_against_avg_5": 2.0,
+          "away_venue_goals_against_avg_5": 2.0,
+          "away_shots_avg_5": 13.4,
+          "away_venue_shots_avg_5": 10.6,
+          "away_sot_avg_5": 4.4,
+          "away_venue_sot_avg_5": 3.0,
+          "away_points_avg_10": 1.0,
+          "away_venue_points_avg_10": 1.3,
+          "away_goals_for_avg_10": 1.3,
+          "away_venue_goals_for_avg_10": 1.7,
+          "away_goals_against_avg_10": 2.1,
+          "away_venue_goals_against_avg_10": 1.8,
+          "away_shots_avg_10": 13.3,
+          "away_venue_shots_avg_10": 11.4,
+          "away_sot_avg_10": 3.6,
+          "away_venue_sot_avg_10": 4.2,
+          "rest_difference": 1
+        },
+        "form": {
+          "home": [
+            {
+              "date": "2026-05-17",
+              "opponent": "Brighton",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 1.0,
+              "goals_against": 0.0,
+              "shots": 7.0,
+              "sot": 1.0
+            },
+            {
+              "date": "2026-05-24",
+              "opponent": "West Ham",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 3.0,
+              "shots": 13.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "Nottingham Forest",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 1.0,
+              "goals_against": 0.0,
+              "shots": 11.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-08-30",
+              "opponent": "Brentford",
+              "venue": "home",
+              "points": 1.0,
+              "goals_for": 1.0,
+              "goals_against": 1.0,
+              "shots": 12.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Brighton",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 1.0,
+              "goals_against": 1.0,
+              "shots": 10.0,
+              "sot": 5.0
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-05-19",
+              "opponent": "Tottenham",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 1.0,
+              "shots": 9.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-05-24",
+              "opponent": "Sunderland",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 2.0,
+              "shots": 10.0,
+              "sot": 1.0
+            },
+            {
+              "date": "2026-08-24",
+              "opponent": "Fulham",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 3.0,
+              "goals_against": 2.0,
+              "shots": 18.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-08-30",
+              "opponent": "Brighton",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 4.0,
+              "goals_against": 3.0,
+              "shots": 17.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-09-06",
+              "opponent": "Arsenal",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 2.0,
+              "shots": 13.0,
+              "sot": 5.0
+            }
+          ]
+        },
+        "activeModel": "Marknadsbaseline",
+        "modelVersion": "2.0",
+        "newsAffectsProbabilities": false,
+        "edge": {
+          "home": 0.028543563068920697,
+          "draw": 0.012600780234070297,
+          "away": -0.04114434330299088
+        },
+        "value": {
+          "home": 1.1427178153446034,
+          "draw": 1.052503250975293,
+          "away": 0.9265279583875163
+        },
+        "valueFloorApplied": false,
+        "recommendation": [
+          "2"
+        ],
+        "mostLikely": "2",
+        "bestValue": "1",
+        "explanation": "Mest sannolikt: 2. Högst värdeindex: 1. Systemet väljer 2 inom kupongens budget."
+      },
+      {
+        "homeTeam": "Coventry",
+        "awayTeam": "Burnley",
+        "date": "2026-09-12",
+        "league": "E1",
+        "marketOdds": {
+          "home": 2.25,
+          "draw": 3.3,
+          "away": 3.2
+        },
+        "oddsSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "number": 4,
+        "crowd": {
+          "home": 0.38,
+          "draw": 0.31,
+          "away": 0.31
+        },
+        "crowdSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "matchId": "b1355d07fc02184a51055a428f0643ce",
+        "model": {
+          "home": 0.41929720071471116,
+          "draw": 0.2858844550327576,
+          "away": 0.2948183442525313
+        },
+        "market": {
+          "home": 0.41929720071471116,
+          "draw": 0.2858844550327576,
+          "away": 0.2948183442525313
+        },
+        "source": "market_baseline",
+        "warnings": [],
+        "features": {
+          "league": "E1",
+          "home_elo_before": 1643.6693152923806,
+          "away_elo_before": 1572.1145424875192,
+          "elo_difference": 136.5547728048614,
+          "market_prob_home": 0.41929720071471116,
+          "market_prob_draw": 0.2858844550327576,
+          "market_prob_away": 0.2948183442525313,
+          "days_since_last_match_home": 7,
+          "home_points_avg_5": 1.2,
+          "home_venue_points_avg_5": 2.0,
+          "home_goals_for_avg_5": 1.4,
+          "home_venue_goals_for_avg_5": 2.2,
+          "home_goals_against_avg_5": 1.2,
+          "home_venue_goals_against_avg_5": 1.0,
+          "home_shots_avg_5": 12.0,
+          "home_venue_shots_avg_5": 14.8,
+          "home_sot_avg_5": 4.0,
+          "home_venue_sot_avg_5": 5.0,
+          "home_points_avg_10": 1.5,
+          "home_venue_points_avg_10": 2.0,
+          "home_goals_for_avg_10": 1.6,
+          "home_venue_goals_for_avg_10": 2.0,
+          "home_goals_against_avg_10": 1.0,
+          "home_venue_goals_against_avg_10": 0.9,
+          "home_shots_avg_10": 12.6,
+          "home_venue_shots_avg_10": 17.2,
+          "home_sot_avg_10": 3.9,
+          "home_venue_sot_avg_10": 5.7,
+          "days_since_last_match_away": 7,
+          "away_points_avg_5": 0.4,
+          "away_venue_points_avg_5": 0.0,
+          "away_goals_for_avg_5": 1.2,
+          "away_venue_goals_for_avg_5": 0.8,
+          "away_goals_against_avg_5": 2.4,
+          "away_venue_goals_against_avg_5": 3.0,
+          "away_shots_avg_5": 12.8,
+          "away_venue_shots_avg_5": 9.0,
+          "away_sot_avg_5": 3.6,
+          "away_venue_sot_avg_5": 2.6,
+          "away_points_avg_10": 0.4,
+          "away_venue_points_avg_10": 0.4,
+          "away_goals_for_avg_10": 1.0,
+          "away_venue_goals_for_avg_10": 0.9,
+          "away_goals_against_avg_10": 2.0,
+          "away_venue_goals_against_avg_10": 2.6,
+          "away_shots_avg_10": 11.8,
+          "away_venue_shots_avg_10": 8.4,
+          "away_sot_avg_10": 3.6,
+          "away_venue_sot_avg_10": 2.7,
+          "rest_difference": 0
+        },
+        "form": {
+          "home": [
+            {
+              "date": "2026-04-26",
+              "opponent": "Wrexham",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 3.0,
+              "goals_against": 1.0,
+              "shots": 15.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-05-02",
+              "opponent": "Watford",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 4.0,
+              "goals_against": 0.0,
+              "shots": 18.0,
+              "sot": 7.0
+            },
+            {
+              "date": "2026-08-21",
+              "opponent": "Arsenal",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 3.0,
+              "shots": 4.0,
+              "sot": 1.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "Hull",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 1.0,
+              "shots": 11.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Manchester City",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 1.0,
+              "shots": 12.0,
+              "sot": 3.0
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-08-16",
+              "opponent": "West Ham",
+              "venue": "home",
+              "points": 1.0,
+              "goals_for": 2.0,
+              "goals_against": 2.0,
+              "shots": 18.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-08-23",
+              "opponent": "West Brom",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 3.0,
+              "shots": 11.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "Norwich",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 4.0,
+              "shots": 16.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-09-02",
+              "opponent": "Middlesbrough",
+              "venue": "home",
+              "points": 1.0,
+              "goals_for": 1.0,
+              "goals_against": 1.0,
+              "shots": 11.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Bristol City",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 2.0,
+              "shots": 8.0,
+              "sot": 2.0
+            }
+          ]
+        },
+        "activeModel": "Marknadsbaseline",
+        "modelVersion": "2.0",
+        "newsAffectsProbabilities": false,
+        "edge": {
+          "home": 0.039297200714711156,
+          "draw": -0.024115544967242386,
+          "away": -0.015181655747468714
+        },
+        "value": {
+          "home": 1.103413686091345,
+          "draw": 0.9222079194605084,
+          "away": 0.9510269169436493
+        },
+        "valueFloorApplied": false,
+        "recommendation": [
+          "1"
+        ],
+        "mostLikely": "1",
+        "bestValue": "1",
+        "explanation": "Spik 1: tecknet kombinerar modellsannolikhet med lägre streckning hos Svenska Folket."
+      },
+      {
+        "homeTeam": "Liverpool",
+        "awayTeam": "Newcastle",
+        "date": "2026-09-12",
+        "league": "E0",
+        "marketOdds": {
+          "home": 1.65,
+          "draw": 4.2,
+          "away": 5.2
+        },
+        "oddsSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "number": 5,
+        "crowd": {
+          "home": 0.78,
+          "draw": 0.14,
+          "away": 0.08
+        },
+        "crowdSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "matchId": "00358470a783375f9c28d20a3fd2146c",
+        "model": {
+          "home": 0.5847389558232933,
+          "draw": 0.22971887550200804,
+          "away": 0.1855421686746988
+        },
+        "market": {
+          "home": 0.5847389558232933,
+          "draw": 0.22971887550200804,
+          "away": 0.1855421686746988
+        },
+        "source": "market_baseline",
+        "warnings": [],
+        "features": {
+          "league": "E0",
+          "home_elo_before": 1831.1047994566463,
+          "away_elo_before": 1751.3207039953102,
+          "elo_difference": 144.78409546133616,
+          "market_prob_home": 0.5847389558232933,
+          "market_prob_draw": 0.22971887550200804,
+          "market_prob_away": 0.1855421686746988,
+          "days_since_last_match_home": 8,
+          "home_points_avg_5": 1.2,
+          "home_venue_points_avg_5": 1.8,
+          "home_goals_for_avg_5": 1.8,
+          "home_venue_goals_for_avg_5": 1.8,
+          "home_goals_against_avg_5": 1.8,
+          "home_venue_goals_against_avg_5": 1.0,
+          "home_shots_avg_5": 18.0,
+          "home_venue_shots_avg_5": 14.4,
+          "home_sot_avg_5": 6.2,
+          "home_venue_sot_avg_5": 4.6,
+          "home_points_avg_10": 1.6,
+          "home_venue_points_avg_10": 1.7,
+          "home_goals_for_avg_10": 1.9,
+          "home_venue_goals_for_avg_10": 2.1,
+          "home_goals_against_avg_10": 1.5,
+          "home_venue_goals_against_avg_10": 1.2,
+          "home_shots_avg_10": 15.2,
+          "home_venue_shots_avg_10": 17.1,
+          "home_sot_avg_10": 5.3,
+          "home_venue_sot_avg_10": 5.6,
+          "days_since_last_match_away": 7,
+          "away_points_avg_5": 1.6,
+          "away_venue_points_avg_5": 0.8,
+          "away_goals_for_avg_5": 1.8,
+          "away_venue_goals_for_avg_5": 0.8,
+          "away_goals_against_avg_5": 1.4,
+          "away_venue_goals_against_avg_5": 1.2,
+          "away_shots_avg_5": 10.8,
+          "away_venue_shots_avg_5": 10.8,
+          "away_sot_avg_5": 3.4,
+          "away_venue_sot_avg_5": 3.2,
+          "away_points_avg_10": 1.2,
+          "away_venue_points_avg_10": 1.1,
+          "away_goals_for_avg_10": 1.5,
+          "away_venue_goals_for_avg_10": 0.9,
+          "away_goals_against_avg_10": 1.4,
+          "away_venue_goals_against_avg_10": 1.3,
+          "away_shots_avg_10": 11.5,
+          "away_venue_shots_avg_10": 11.5,
+          "away_sot_avg_10": 3.8,
+          "away_venue_sot_avg_10": 3.7,
+          "rest_difference": 1
+        },
+        "form": {
+          "home": [
+            {
+              "date": "2026-05-15",
+              "opponent": "Aston Villa",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 2.0,
+              "goals_against": 4.0,
+              "shots": 16.0,
+              "sot": 5.0
+            },
+            {
+              "date": "2026-05-24",
+              "opponent": "Brentford",
+              "venue": "home",
+              "points": 1.0,
+              "goals_for": 1.0,
+              "goals_against": 1.0,
+              "shots": 24.0,
+              "sot": 8.0
+            },
+            {
+              "date": "2026-08-23",
+              "opponent": "Newcastle",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 2.0,
+              "goals_against": 2.0,
+              "shots": 27.0,
+              "sot": 7.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "Nottingham Forest",
+              "venue": "home",
+              "points": 1.0,
+              "goals_for": 2.0,
+              "goals_against": 2.0,
+              "shots": 13.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-09-04",
+              "opponent": "Ipswich",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 0.0,
+              "shots": 10.0,
+              "sot": 7.0
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-05-17",
+              "opponent": "West Ham",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 3.0,
+              "goals_against": 1.0,
+              "shots": 15.0,
+              "sot": 7.0
+            },
+            {
+              "date": "2026-05-24",
+              "opponent": "Fulham",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 2.0,
+              "shots": 7.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-08-23",
+              "opponent": "Liverpool",
+              "venue": "home",
+              "points": 1.0,
+              "goals_for": 2.0,
+              "goals_against": 2.0,
+              "shots": 13.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "Tottenham",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 0.0,
+              "shots": 11.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Bournemouth",
+              "venue": "home",
+              "points": 1.0,
+              "goals_for": 2.0,
+              "goals_against": 2.0,
+              "shots": 8.0,
+              "sot": 2.0
+            }
+          ]
+        },
+        "activeModel": "Marknadsbaseline",
+        "modelVersion": "2.0",
+        "newsAffectsProbabilities": false,
+        "edge": {
+          "home": -0.19526104417670676,
+          "draw": 0.08971887550200802,
+          "away": 0.1055421686746988
+        },
+        "value": {
+          "home": 0.7496653279785811,
+          "draw": 1.6408491107286287,
+          "away": 2.319277108433735
+        },
+        "valueFloorApplied": false,
+        "recommendation": [
+          "1"
+        ],
+        "mostLikely": "1",
+        "bestValue": "2",
+        "explanation": "Varning: 1 är mest sannolikt men överstreckat med 19.5 procentenheter. Systemval: 1."
+      },
+      {
+        "homeTeam": "Manchester United",
+        "awayTeam": "Aston Villa",
+        "date": "2026-09-12",
+        "league": "E0",
+        "marketOdds": {
+          "home": 2.1,
+          "draw": 3.6,
+          "away": 3.5
+        },
+        "oddsSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "number": 6,
+        "crowd": {
+          "home": 0.57,
+          "draw": 0.24,
+          "away": 0.19
+        },
+        "crowdSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "matchId": "a42dfb7f3f5f5a504795a0c08b920ae2",
+        "model": {
+          "home": 0.45801526717557256,
+          "draw": 0.267175572519084,
+          "away": 0.2748091603053435
+        },
+        "market": {
+          "home": 0.45801526717557256,
+          "draw": 0.267175572519084,
+          "away": 0.2748091603053435
+        },
+        "source": "market_baseline",
+        "warnings": [],
+        "features": {
+          "league": "E0",
+          "home_elo_before": 1813.1870475300054,
+          "away_elo_before": 1790.839764210657,
+          "elo_difference": 87.34728331934843,
+          "market_prob_home": 0.45801526717557256,
+          "market_prob_draw": 0.267175572519084,
+          "market_prob_away": 0.2748091603053435,
+          "days_since_last_match_home": 6,
+          "home_points_avg_5": 2.0,
+          "home_venue_points_avg_5": 2.4,
+          "home_goals_for_avg_5": 2.6,
+          "home_venue_goals_for_avg_5": 2.8,
+          "home_goals_against_avg_5": 1.6,
+          "home_venue_goals_against_avg_5": 1.8,
+          "home_shots_avg_5": 21.6,
+          "home_venue_shots_avg_5": 22.2,
+          "home_sot_avg_5": 6.8,
+          "home_venue_sot_avg_5": 8.0,
+          "home_points_avg_10": 2.0,
+          "home_venue_points_avg_10": 2.7,
+          "home_goals_for_avg_10": 2.0,
+          "home_venue_goals_for_avg_10": 2.6,
+          "home_goals_against_avg_10": 1.3,
+          "home_venue_goals_against_avg_10": 1.3,
+          "home_shots_avg_10": 17.2,
+          "home_venue_shots_avg_10": 19.4,
+          "home_sot_avg_10": 5.7,
+          "home_venue_sot_avg_10": 8.0,
+          "days_since_last_match_away": 7,
+          "away_points_avg_5": 1.4,
+          "away_venue_points_avg_5": 1.0,
+          "away_goals_for_avg_5": 1.2,
+          "away_venue_goals_for_avg_5": 0.8,
+          "away_goals_against_avg_5": 1.6,
+          "away_venue_goals_against_avg_5": 1.6,
+          "away_shots_avg_5": 10.4,
+          "away_venue_shots_avg_5": 11.8,
+          "away_sot_avg_5": 3.0,
+          "away_venue_sot_avg_5": 2.8,
+          "away_points_avg_10": 1.2,
+          "away_venue_points_avg_10": 1.0,
+          "away_goals_for_avg_10": 1.4,
+          "away_venue_goals_for_avg_10": 0.9,
+          "away_goals_against_avg_10": 1.7,
+          "away_venue_goals_against_avg_10": 1.5,
+          "away_shots_avg_10": 11.2,
+          "away_venue_shots_avg_10": 11.5,
+          "away_sot_avg_10": 3.6,
+          "away_venue_sot_avg_10": 3.8,
+          "rest_difference": -1
+        },
+        "form": {
+          "home": [
+            {
+              "date": "2026-05-17",
+              "opponent": "Nottingham Forest",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 3.0,
+              "goals_against": 2.0,
+              "shots": 29.0,
+              "sot": 8.0
+            },
+            {
+              "date": "2026-05-24",
+              "opponent": "Brighton",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 3.0,
+              "goals_against": 0.0,
+              "shots": 11.0,
+              "sot": 7.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "Hull",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 2.0,
+              "shots": 21.0,
+              "sot": 5.0
+            },
+            {
+              "date": "2026-08-30",
+              "opponent": "Ipswich",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 5.0,
+              "goals_against": 2.0,
+              "shots": 33.0,
+              "sot": 11.0
+            },
+            {
+              "date": "2026-09-06",
+              "opponent": "Everton",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 2.0,
+              "goals_against": 2.0,
+              "shots": 14.0,
+              "sot": 3.0
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-05-15",
+              "opponent": "Liverpool",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 4.0,
+              "goals_against": 2.0,
+              "shots": 14.0,
+              "sot": 9.0
+            },
+            {
+              "date": "2026-05-24",
+              "opponent": "Manchester City",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 1.0,
+              "shots": 12.0,
+              "sot": 5.0
+            },
+            {
+              "date": "2026-08-23",
+              "opponent": "Brighton",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 4.0,
+              "shots": 6.0,
+              "sot": 0.0
+            },
+            {
+              "date": "2026-08-31",
+              "opponent": "Arsenal",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 1.0,
+              "shots": 7.0,
+              "sot": 0.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Hull",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 0.0,
+              "goals_against": 0.0,
+              "shots": 13.0,
+              "sot": 1.0
+            }
+          ]
+        },
+        "activeModel": "Marknadsbaseline",
+        "modelVersion": "2.0",
+        "newsAffectsProbabilities": false,
+        "edge": {
+          "home": -0.11198473282442739,
+          "draw": 0.027175572519084035,
+          "away": 0.08480916030534352
+        },
+        "value": {
+          "home": 0.8035355564483729,
+          "draw": 1.1132315521628502,
+          "away": 1.4463640016070711
+        },
+        "valueFloorApplied": false,
+        "recommendation": [
+          "1",
+          "X",
+          "2"
+        ],
+        "mostLikely": "1",
+        "bestValue": "2",
+        "explanation": "Varning: 1 är mest sannolikt men överstreckat med 11.2 procentenheter. Systemval: 1X2."
+      },
+      {
+        "homeTeam": "West Ham",
+        "awayTeam": "Crystal Palace",
+        "date": "2026-09-12",
+        "league": "E0",
+        "marketOdds": {
+          "home": 2.6,
+          "draw": 3.1,
+          "away": 2.9
+        },
+        "oddsSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "number": 7,
+        "crowd": {
+          "home": 0.39,
+          "draw": 0.32,
+          "away": 0.29
+        },
+        "crowdSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "matchId": "1da83326adead9d22af6ee35f061fed5",
+        "model": {
+          "home": 0.36559577063847093,
+          "draw": 0.3066287108580724,
+          "away": 0.3277755185034567
+        },
+        "market": {
+          "home": 0.36559577063847093,
+          "draw": 0.3066287108580724,
+          "away": 0.3277755185034567
+        },
+        "source": "market_baseline",
+        "warnings": [],
+        "features": {
+          "league": "E0",
+          "home_elo_before": 1672.5794805702767,
+          "away_elo_before": 1712.8001408382845,
+          "elo_difference": 24.779339731992195,
+          "market_prob_home": 0.36559577063847093,
+          "market_prob_draw": 0.3066287108580724,
+          "market_prob_away": 0.3277755185034567,
+          "days_since_last_match_home": 7,
+          "home_points_avg_5": 1.6,
+          "home_venue_points_avg_5": 1.8,
+          "home_goals_for_avg_5": 2.2,
+          "home_venue_goals_for_avg_5": 2.2,
+          "home_goals_against_avg_5": 1.4,
+          "home_venue_goals_against_avg_5": 1.0,
+          "home_shots_avg_5": 16.2,
+          "home_venue_shots_avg_5": 16.4,
+          "home_sot_avg_5": 5.0,
+          "home_venue_sot_avg_5": 6.8,
+          "home_points_avg_10": 1.4,
+          "home_venue_points_avg_10": 1.8,
+          "home_goals_for_avg_10": 1.7,
+          "home_venue_goals_for_avg_10": 1.9,
+          "home_goals_against_avg_10": 1.5,
+          "home_venue_goals_against_avg_10": 0.8,
+          "home_shots_avg_10": 14.4,
+          "home_venue_shots_avg_10": 13.8,
+          "home_sot_avg_10": 5.2,
+          "home_venue_sot_avg_10": 5.1,
+          "days_since_last_match_away": 7,
+          "away_points_avg_5": 0.8,
+          "away_venue_points_avg_5": 0.8,
+          "away_goals_for_avg_5": 1.4,
+          "away_venue_goals_for_avg_5": 1.0,
+          "away_goals_against_avg_5": 2.4,
+          "away_venue_goals_against_avg_5": 2.4,
+          "away_shots_avg_5": 10.8,
+          "away_venue_shots_avg_5": 10.0,
+          "away_sot_avg_5": 3.6,
+          "away_venue_sot_avg_5": 3.4,
+          "away_points_avg_10": 0.6,
+          "away_venue_points_avg_10": 1.1,
+          "away_goals_for_avg_10": 1.0,
+          "away_venue_goals_for_avg_10": 1.2,
+          "away_goals_against_avg_10": 2.3,
+          "away_venue_goals_against_avg_10": 1.9,
+          "away_shots_avg_10": 11.1,
+          "away_venue_shots_avg_10": 10.2,
+          "away_sot_avg_10": 3.7,
+          "away_venue_sot_avg_10": 3.8,
+          "rest_difference": 0
+        },
+        "form": {
+          "home": [
+            {
+              "date": "2026-08-16",
+              "opponent": "Burnley",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 2.0,
+              "goals_against": 2.0,
+              "shots": 11.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "Charlton",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 2.0,
+              "shots": 25.0,
+              "sot": 9.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "Watford",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 1.0,
+              "goals_against": 1.0,
+              "shots": 13.0,
+              "sot": 1.0
+            },
+            {
+              "date": "2026-09-01",
+              "opponent": "Wolverhampton Wanderers",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 4.0,
+              "goals_against": 2.0,
+              "shots": 12.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Derby",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 3.0,
+              "goals_against": 0.0,
+              "shots": 20.0,
+              "sot": 7.0
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-05-17",
+              "opponent": "Brentford",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 2.0,
+              "goals_against": 2.0,
+              "shots": 16.0,
+              "sot": 5.0
+            },
+            {
+              "date": "2026-05-24",
+              "opponent": "Arsenal",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 2.0,
+              "shots": 8.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "Everton",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 2.0,
+              "shots": 11.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-08-28",
+              "opponent": "Manchester City",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 4.0,
+              "shots": 9.0,
+              "sot": 1.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Fulham",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 3.0,
+              "goals_against": 2.0,
+              "shots": 10.0,
+              "sot": 5.0
+            }
+          ]
+        },
+        "activeModel": "Marknadsbaseline",
+        "modelVersion": "2.0",
+        "newsAffectsProbabilities": false,
+        "edge": {
+          "home": -0.024404229361529084,
+          "draw": -0.01337128914192759,
+          "away": 0.03777551850345673
+        },
+        "value": {
+          "home": 0.9374250529191562,
+          "draw": 0.9582147214314762,
+          "away": 1.1302604086326093
+        },
+        "valueFloorApplied": false,
+        "recommendation": [
+          "1",
+          "X",
+          "2"
+        ],
+        "mostLikely": "1",
+        "bestValue": "2",
+        "explanation": "Mest sannolikt: 1. Högst värdeindex: 2. Systemet väljer 1X2 inom kupongens budget."
+      },
+      {
+        "homeTeam": "Norwich",
+        "awayTeam": "Watford",
+        "date": "2026-09-12",
+        "league": "E1",
+        "marketOdds": {
+          "home": 2.15,
+          "draw": 3.4,
+          "away": 3.4
+        },
+        "oddsSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "number": 8,
+        "crowd": {
+          "home": 0.42,
+          "draw": 0.28,
+          "away": 0.3
+        },
+        "crowdSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "matchId": "e41d7250670515dc9fd0ec3741f660bc",
+        "model": {
+          "home": 0.44155844155844154,
+          "draw": 0.2792207792207792,
+          "away": 0.2792207792207792
+        },
+        "market": {
+          "home": 0.44155844155844154,
+          "draw": 0.2792207792207792,
+          "away": 0.2792207792207792
+        },
+        "source": "market_baseline",
+        "warnings": [],
+        "features": {
+          "league": "E1",
+          "home_elo_before": 1550.8094414166226,
+          "away_elo_before": 1484.7925860132143,
+          "elo_difference": 131.01685540340827,
+          "market_prob_home": 0.44155844155844154,
+          "market_prob_draw": 0.2792207792207792,
+          "market_prob_away": 0.2792207792207792,
+          "days_since_last_match_home": 7,
+          "home_points_avg_5": 1.2,
+          "home_venue_points_avg_5": 1.4,
+          "home_goals_for_avg_5": 1.6,
+          "home_venue_goals_for_avg_5": 1.6,
+          "home_goals_against_avg_5": 1.6,
+          "home_venue_goals_against_avg_5": 1.4,
+          "home_shots_avg_5": 16.4,
+          "home_venue_shots_avg_5": 17.0,
+          "home_sot_avg_5": 5.8,
+          "home_venue_sot_avg_5": 6.0,
+          "home_points_avg_10": 1.3,
+          "home_venue_points_avg_10": 1.7,
+          "home_goals_for_avg_10": 1.6,
+          "home_venue_goals_for_avg_10": 1.6,
+          "home_goals_against_avg_10": 1.6,
+          "home_venue_goals_against_avg_10": 1.1,
+          "home_shots_avg_10": 15.8,
+          "home_venue_shots_avg_10": 15.6,
+          "home_sot_avg_10": 5.7,
+          "home_venue_sot_avg_10": 5.8,
+          "days_since_last_match_away": 7,
+          "away_points_avg_5": 1.0,
+          "away_venue_points_avg_5": 0.2,
+          "away_goals_for_avg_5": 0.8,
+          "away_venue_goals_for_avg_5": 0.4,
+          "away_goals_against_avg_5": 1.2,
+          "away_venue_goals_against_avg_5": 2.4,
+          "away_shots_avg_5": 12.4,
+          "away_venue_shots_avg_5": 10.0,
+          "away_sot_avg_5": 3.8,
+          "away_venue_sot_avg_5": 3.4,
+          "away_points_avg_10": 0.5,
+          "away_venue_points_avg_10": 0.5,
+          "away_goals_for_avg_10": 0.5,
+          "away_venue_goals_for_avg_10": 0.7,
+          "away_goals_against_avg_10": 2.2,
+          "away_venue_goals_against_avg_10": 2.1,
+          "away_shots_avg_10": 12.1,
+          "away_venue_shots_avg_10": 11.4,
+          "away_sot_avg_10": 3.5,
+          "away_venue_sot_avg_10": 3.6,
+          "rest_difference": 0
+        },
+        "form": {
+          "home": [
+            {
+              "date": "2026-08-15",
+              "opponent": "West Brom",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 2.0,
+              "shots": 20.0,
+              "sot": 7.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "Millwall",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 3.0,
+              "shots": 8.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "Burnley",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 4.0,
+              "goals_against": 1.0,
+              "shots": 20.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-09-01",
+              "opponent": "Stoke",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 1.0,
+              "shots": 15.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Sheffield United",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 3.0,
+              "goals_against": 1.0,
+              "shots": 19.0,
+              "sot": 8.0
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-08-16",
+              "opponent": "Southampton",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 1.0,
+              "shots": 16.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "Wrexham",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 1.0,
+              "goals_against": 1.0,
+              "shots": 10.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "West Ham",
+              "venue": "home",
+              "points": 1.0,
+              "goals_for": 1.0,
+              "goals_against": 1.0,
+              "shots": 16.0,
+              "sot": 5.0
+            },
+            {
+              "date": "2026-09-01",
+              "opponent": "Swansea",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 2.0,
+              "shots": 9.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "West Brom",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 1.0,
+              "shots": 11.0,
+              "sot": 2.0
+            }
+          ]
+        },
+        "activeModel": "Marknadsbaseline",
+        "modelVersion": "2.0",
+        "newsAffectsProbabilities": false,
+        "edge": {
+          "home": 0.021558441558441555,
+          "draw": -0.0007792207792208239,
+          "away": -0.020779220779220786
+        },
+        "value": {
+          "home": 1.051329622758194,
+          "draw": 0.99721706864564,
+          "away": 0.9307359307359307
+        },
+        "valueFloorApplied": false,
+        "recommendation": [
+          "1"
+        ],
+        "mostLikely": "1",
+        "bestValue": "1",
+        "explanation": "Spik 1: tecknet kombinerar modellsannolikhet med lägre streckning hos Svenska Folket."
+      },
+      {
+        "homeTeam": "West Brom",
+        "awayTeam": "QPR",
+        "date": "2026-09-12",
+        "league": "E1",
+        "marketOdds": {
+          "home": 1.8,
+          "draw": 3.5,
+          "away": 4.7
+        },
+        "oddsSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "number": 9,
+        "crowd": {
+          "home": 0.54,
+          "draw": 0.28,
+          "away": 0.18
+        },
+        "crowdSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "matchId": "670417ea53b2b7d22c5570135596cadd",
+        "model": {
+          "home": 0.5270746555591157,
+          "draw": 0.2710669657161166,
+          "away": 0.2018583787247677
+        },
+        "market": {
+          "home": 0.5270746555591157,
+          "draw": 0.2710669657161166,
+          "away": 0.2018583787247677
+        },
+        "source": "market_baseline",
+        "warnings": [],
+        "features": {
+          "league": "E1",
+          "home_elo_before": 1530.9593409329339,
+          "away_elo_before": 1511.370014211878,
+          "elo_difference": 84.58932672105584,
+          "market_prob_home": 0.5270746555591157,
+          "market_prob_draw": 0.2710669657161166,
+          "market_prob_away": 0.2018583787247677,
+          "days_since_last_match_home": 7,
+          "home_points_avg_5": 2.0,
+          "home_venue_points_avg_5": 2.2,
+          "home_goals_for_avg_5": 1.6,
+          "home_venue_goals_for_avg_5": 1.6,
+          "home_goals_against_avg_5": 1.2,
+          "home_venue_goals_against_avg_5": 0.4,
+          "home_shots_avg_5": 11.2,
+          "home_venue_shots_avg_5": 12.2,
+          "home_sot_avg_5": 4.4,
+          "home_venue_sot_avg_5": 5.2,
+          "home_points_avg_10": 1.8,
+          "home_venue_points_avg_10": 1.8,
+          "home_goals_for_avg_10": 1.4,
+          "home_venue_goals_for_avg_10": 1.5,
+          "home_goals_against_avg_10": 0.8,
+          "home_venue_goals_against_avg_10": 0.6,
+          "home_shots_avg_10": 11.9,
+          "home_venue_shots_avg_10": 14.3,
+          "home_sot_avg_10": 4.3,
+          "home_venue_sot_avg_10": 4.7,
+          "days_since_last_match_away": 7,
+          "away_points_avg_5": 2.0,
+          "away_venue_points_avg_5": 1.4,
+          "away_goals_for_avg_5": 1.4,
+          "away_venue_goals_for_avg_5": 1.2,
+          "away_goals_against_avg_5": 0.8,
+          "away_venue_goals_against_avg_5": 1.6,
+          "away_shots_avg_5": 17.2,
+          "away_venue_shots_avg_5": 13.6,
+          "away_sot_avg_5": 6.2,
+          "away_venue_sot_avg_5": 4.4,
+          "away_points_avg_10": 1.1,
+          "away_venue_points_avg_10": 1.4,
+          "away_goals_for_avg_10": 1.0,
+          "away_venue_goals_for_avg_10": 1.2,
+          "away_goals_against_avg_10": 1.4,
+          "away_venue_goals_against_avg_10": 1.6,
+          "away_shots_avg_10": 14.9,
+          "away_venue_shots_avg_10": 12.7,
+          "away_sot_avg_10": 5.5,
+          "away_venue_sot_avg_10": 3.9,
+          "rest_difference": 0
+        },
+        "form": {
+          "home": [
+            {
+              "date": "2026-08-15",
+              "opponent": "Norwich",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 1.0,
+              "shots": 9.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-08-23",
+              "opponent": "Burnley",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 3.0,
+              "goals_against": 1.0,
+              "shots": 11.0,
+              "sot": 7.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "Middlesbrough",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 3.0,
+              "shots": 12.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-09-02",
+              "opponent": "Charlton",
+              "venue": "home",
+              "points": 1.0,
+              "goals_for": 1.0,
+              "goals_against": 1.0,
+              "shots": 15.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Watford",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 1.0,
+              "goals_against": 0.0,
+              "shots": 9.0,
+              "sot": 4.0
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-08-15",
+              "opponent": "Portsmouth",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 3.0,
+              "goals_against": 1.0,
+              "shots": 13.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "Bolton",
+              "venue": "home",
+              "points": 1.0,
+              "goals_for": 0.0,
+              "goals_against": 0.0,
+              "shots": 18.0,
+              "sot": 10.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "Blackburn",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 1.0,
+              "shots": 19.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-09-02",
+              "opponent": "Cardiff",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 1.0,
+              "shots": 20.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Middlesbrough",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 1.0,
+              "shots": 16.0,
+              "sot": 5.0
+            }
+          ]
+        },
+        "activeModel": "Marknadsbaseline",
+        "modelVersion": "2.0",
+        "newsAffectsProbabilities": false,
+        "edge": {
+          "home": -0.012925344440884334,
+          "draw": -0.008933034283883423,
+          "away": 0.021858378724767702
+        },
+        "value": {
+          "home": 0.9760641769613253,
+          "draw": 0.9680963061289878,
+          "away": 1.1214354373598205
+        },
+        "valueFloorApplied": false,
+        "recommendation": [
+          "1"
+        ],
+        "mostLikely": "1",
+        "bestValue": "2",
+        "explanation": "Mest sannolikt: 1. Högst värdeindex: 2. Systemet väljer 1 inom kupongens budget."
+      },
+      {
+        "homeTeam": "Preston",
+        "awayTeam": "Stoke",
+        "date": "2026-09-12",
+        "league": "E1",
+        "marketOdds": {
+          "home": 2.6,
+          "draw": 3.0,
+          "away": 3.0
+        },
+        "oddsSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "number": 10,
+        "crowd": {
+          "home": 0.32,
+          "draw": 0.35,
+          "away": 0.33
+        },
+        "crowdSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "matchId": "81ca482f66e7e41cc388ef5c52f2ba2b",
+        "model": {
+          "home": 0.3658536585365854,
+          "draw": 0.3170731707317074,
+          "away": 0.3170731707317074
+        },
+        "market": {
+          "home": 0.3658536585365854,
+          "draw": 0.3170731707317074,
+          "away": 0.3170731707317074
+        },
+        "source": "market_baseline",
+        "warnings": [],
+        "features": {
+          "league": "E1",
+          "home_elo_before": 1473.2113718897645,
+          "away_elo_before": 1464.8417391750204,
+          "elo_difference": 73.36963271474406,
+          "market_prob_home": 0.3658536585365854,
+          "market_prob_draw": 0.3170731707317074,
+          "market_prob_away": 0.3170731707317074,
+          "days_since_last_match_home": 7,
+          "home_points_avg_5": 0.6,
+          "home_venue_points_avg_5": 0.6,
+          "home_goals_for_avg_5": 1.0,
+          "home_venue_goals_for_avg_5": 1.0,
+          "home_goals_against_avg_5": 2.0,
+          "home_venue_goals_against_avg_5": 2.4,
+          "home_shots_avg_5": 12.2,
+          "home_venue_shots_avg_5": 12.8,
+          "home_sot_avg_5": 2.6,
+          "home_venue_sot_avg_5": 3.0,
+          "home_points_avg_10": 0.9,
+          "home_venue_points_avg_10": 0.8,
+          "home_goals_for_avg_10": 1.2,
+          "home_venue_goals_for_avg_10": 1.2,
+          "home_goals_against_avg_10": 2.0,
+          "home_venue_goals_against_avg_10": 2.1,
+          "home_shots_avg_10": 12.8,
+          "home_venue_shots_avg_10": 11.2,
+          "home_sot_avg_10": 3.6,
+          "home_venue_sot_avg_10": 2.9,
+          "days_since_last_match_away": 7,
+          "away_points_avg_5": 1.2,
+          "away_venue_points_avg_5": 0.0,
+          "away_goals_for_avg_5": 1.6,
+          "away_venue_goals_for_avg_5": 0.4,
+          "away_goals_against_avg_5": 1.8,
+          "away_venue_goals_against_avg_5": 2.6,
+          "away_shots_avg_5": 10.8,
+          "away_venue_shots_avg_5": 10.8,
+          "away_sot_avg_5": 3.4,
+          "away_venue_sot_avg_5": 1.4,
+          "away_points_avg_10": 0.7,
+          "away_venue_points_avg_10": 0.1,
+          "away_goals_for_avg_10": 1.1,
+          "away_venue_goals_for_avg_10": 0.4,
+          "away_goals_against_avg_10": 2.0,
+          "away_venue_goals_against_avg_10": 2.1,
+          "away_shots_avg_10": 11.1,
+          "away_venue_shots_avg_10": 9.2,
+          "away_sot_avg_10": 2.9,
+          "away_venue_sot_avg_10": 1.7,
+          "rest_difference": 0
+        },
+        "form": {
+          "home": [
+            {
+              "date": "2026-08-15",
+              "opponent": "Bolton",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 2.0,
+              "shots": 10.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "Wolverhampton Wanderers",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 3.0,
+              "shots": 13.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "Charlton",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 1.0,
+              "shots": 12.0,
+              "sot": 1.0
+            },
+            {
+              "date": "2026-09-01",
+              "opponent": "Bristol City",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 3.0,
+              "shots": 18.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Blackburn",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 1.0,
+              "shots": 8.0,
+              "sot": 3.0
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-08-15",
+              "opponent": "Swansea",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 2.0,
+              "shots": 6.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "Southampton",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 3.0,
+              "shots": 15.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "Wolverhampton Wanderers",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 4.0,
+              "shots": 10.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-09-01",
+              "opponent": "Norwich",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 1.0,
+              "goals_against": 0.0,
+              "shots": 6.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Charlton",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 4.0,
+              "goals_against": 0.0,
+              "shots": 17.0,
+              "sot": 8.0
+            }
+          ]
+        },
+        "activeModel": "Marknadsbaseline",
+        "modelVersion": "2.0",
+        "newsAffectsProbabilities": false,
+        "edge": {
+          "home": 0.04585365853658541,
+          "draw": -0.0329268292682926,
+          "away": -0.012926829268292639
+        },
+        "value": {
+          "home": 1.1432926829268293,
+          "draw": 0.9059233449477354,
+          "away": 0.9608277900960829
+        },
+        "valueFloorApplied": false,
+        "recommendation": [
+          "1",
+          "X",
+          "2"
+        ],
+        "mostLikely": "1",
+        "bestValue": "1",
+        "explanation": "Mest sannolikt: 1. Högst värdeindex: 1. Systemet väljer 1X2 inom kupongens budget."
+      },
+      {
+        "homeTeam": "Sheffield United",
+        "awayTeam": "Blackburn",
+        "date": "2026-09-12",
+        "league": "E1",
+        "marketOdds": {
+          "home": 1.95,
+          "draw": 3.4,
+          "away": 4.1
+        },
+        "oddsSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "number": 11,
+        "crowd": {
+          "home": 0.59,
+          "draw": 0.24,
+          "away": 0.17
+        },
+        "crowdSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "matchId": "c8cf0ff008137dc8ed711016560e354e",
+        "model": {
+          "home": 0.4880098022054963,
+          "draw": 0.27988797479432875,
+          "away": 0.23210222300017505
+        },
+        "market": {
+          "home": 0.4880098022054963,
+          "draw": 0.27988797479432875,
+          "away": 0.23210222300017505
+        },
+        "source": "market_baseline",
+        "warnings": [],
+        "features": {
+          "league": "E1",
+          "home_elo_before": 1541.1031927271383,
+          "away_elo_before": 1497.8417342986866,
+          "elo_difference": 108.26145842845176,
+          "market_prob_home": 0.4880098022054963,
+          "market_prob_draw": 0.27988797479432875,
+          "market_prob_away": 0.23210222300017505,
+          "days_since_last_match_home": 7,
+          "home_points_avg_5": 1.2,
+          "home_venue_points_avg_5": 0.8,
+          "home_goals_for_avg_5": 1.2,
+          "home_venue_goals_for_avg_5": 1.4,
+          "home_goals_against_avg_5": 1.4,
+          "home_venue_goals_against_avg_5": 2.2,
+          "home_shots_avg_5": 9.0,
+          "home_venue_shots_avg_5": 11.4,
+          "home_sot_avg_5": 3.2,
+          "home_venue_sot_avg_5": 3.4,
+          "home_points_avg_10": 1.5,
+          "home_venue_points_avg_10": 0.9,
+          "home_goals_for_avg_10": 1.5,
+          "home_venue_goals_for_avg_10": 1.5,
+          "home_goals_against_avg_10": 1.5,
+          "home_venue_goals_against_avg_10": 2.0,
+          "home_shots_avg_10": 11.6,
+          "home_venue_shots_avg_10": 14.0,
+          "home_sot_avg_10": 4.3,
+          "home_venue_sot_avg_10": 4.1,
+          "days_since_last_match_away": 7,
+          "away_points_avg_5": 1.0,
+          "away_venue_points_avg_5": 1.0,
+          "away_goals_for_avg_5": 1.2,
+          "away_venue_goals_for_avg_5": 1.2,
+          "away_goals_against_avg_5": 1.4,
+          "away_venue_goals_against_avg_5": 1.6,
+          "away_shots_avg_5": 9.6,
+          "away_venue_shots_avg_5": 9.2,
+          "away_sot_avg_5": 3.8,
+          "away_venue_sot_avg_5": 4.0,
+          "away_points_avg_10": 1.0,
+          "away_venue_points_avg_10": 1.2,
+          "away_goals_for_avg_10": 1.1,
+          "away_venue_goals_for_avg_10": 1.1,
+          "away_goals_against_avg_10": 1.4,
+          "away_venue_goals_against_avg_10": 1.4,
+          "away_shots_avg_10": 9.4,
+          "away_venue_shots_avg_10": 11.4,
+          "away_sot_avg_10": 3.5,
+          "away_venue_sot_avg_10": 3.6,
+          "rest_difference": 0
+        },
+        "form": {
+          "home": [
+            {
+              "date": "2026-08-15",
+              "opponent": "Birmingham",
+              "venue": "home",
+              "points": 1.0,
+              "goals_for": 0.0,
+              "goals_against": 0.0,
+              "shots": 3.0,
+              "sot": 1.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "Swansea",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 0.0,
+              "goals_against": 0.0,
+              "shots": 12.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "Cardiff",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 2.0,
+              "goals_against": 2.0,
+              "shots": 6.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-09-01",
+              "opponent": "Bolton",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 3.0,
+              "goals_against": 2.0,
+              "shots": 13.0,
+              "sot": 5.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Norwich",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 3.0,
+              "shots": 11.0,
+              "sot": 4.0
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-08-14",
+              "opponent": "Wolverhampton Wanderers",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 2.0,
+              "goals_against": 2.0,
+              "shots": 10.0,
+              "sot": 5.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "Middlesbrough",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 1.0,
+              "shots": 6.0,
+              "sot": 5.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "QPR",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 2.0,
+              "shots": 12.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-09-01",
+              "opponent": "Lincoln",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 0.0,
+              "goals_against": 0.0,
+              "shots": 8.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Preston",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 2.0,
+              "shots": 12.0,
+              "sot": 5.0
+            }
+          ]
+        },
+        "activeModel": "Marknadsbaseline",
+        "modelVersion": "2.0",
+        "newsAffectsProbabilities": false,
+        "edge": {
+          "home": -0.10199019779450369,
+          "draw": 0.03988797479432876,
+          "away": 0.06210222300017504
+        },
+        "value": {
+          "home": 0.8271352579754174,
+          "draw": 1.1661998949763699,
+          "away": 1.3653071941186767
+        },
+        "valueFloorApplied": false,
+        "recommendation": [
+          "1",
+          "X",
+          "2"
+        ],
+        "mostLikely": "1",
+        "bestValue": "2",
+        "explanation": "Varning: 1 är mest sannolikt men överstreckat med 10.2 procentenheter. Systemval: 1X2."
+      },
+      {
+        "homeTeam": "Bolton",
+        "awayTeam": "Reading",
+        "date": "2026-09-12",
+        "league": "E2",
+        "marketOdds": {
+          "home": 1.9,
+          "draw": 3.6,
+          "away": 4.0
+        },
+        "oddsSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "number": 12,
+        "crowd": {
+          "home": 0.46,
+          "draw": 0.29,
+          "away": 0.25
+        },
+        "crowdSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "matchId": "89c8c431be394d43f6087358790bc116",
+        "model": {
+          "home": 0.49930651872399445,
+          "draw": 0.2635228848821082,
+          "away": 0.23717059639389737
+        },
+        "market": {
+          "home": 0.49930651872399445,
+          "draw": 0.2635228848821082,
+          "away": 0.23717059639389737
+        },
+        "source": "market_baseline",
+        "warnings": [],
+        "features": {
+          "league": "E2",
+          "home_elo_before": 1479.983319024413,
+          "away_elo_before": 1447.0189632070467,
+          "elo_difference": 97.96435581736637,
+          "market_prob_home": 0.49930651872399445,
+          "market_prob_draw": 0.2635228848821082,
+          "market_prob_away": 0.23717059639389737,
+          "days_since_last_match_home": 7,
+          "home_points_avg_5": 0.8,
+          "home_venue_points_avg_5": 1.4,
+          "home_goals_for_avg_5": 0.8,
+          "home_venue_goals_for_avg_5": 2.4,
+          "home_goals_against_avg_5": 1.8,
+          "home_venue_goals_against_avg_5": 1.8,
+          "home_shots_avg_5": 13.8,
+          "home_venue_shots_avg_5": 21.6,
+          "home_sot_avg_5": 4.4,
+          "home_venue_sot_avg_5": 7.8,
+          "home_points_avg_10": 0.9,
+          "home_venue_points_avg_10": 1.6,
+          "home_goals_for_avg_10": 1.5,
+          "home_venue_goals_for_avg_10": 2.2,
+          "home_goals_against_avg_10": 1.9,
+          "home_venue_goals_against_avg_10": 1.7,
+          "home_shots_avg_10": 16.4,
+          "home_venue_shots_avg_10": 20.3,
+          "home_sot_avg_10": 5.3,
+          "home_venue_sot_avg_10": 6.7,
+          "days_since_last_match_away": 7,
+          "away_points_avg_5": 1.4,
+          "away_venue_points_avg_5": 0.6,
+          "away_goals_for_avg_5": 2.2,
+          "away_venue_goals_for_avg_5": 0.4,
+          "away_goals_against_avg_5": 1.2,
+          "away_venue_goals_against_avg_5": 0.8,
+          "away_shots_avg_5": 16.2,
+          "away_venue_shots_avg_5": 6.8,
+          "away_sot_avg_5": 4.2,
+          "away_venue_sot_avg_5": 2.0,
+          "away_points_avg_10": 0.9,
+          "away_venue_points_avg_10": 1.3,
+          "away_goals_for_avg_10": 1.5,
+          "away_venue_goals_for_avg_10": 1.0,
+          "away_goals_against_avg_10": 1.4,
+          "away_venue_goals_against_avg_10": 1.0,
+          "away_shots_avg_10": 12.5,
+          "away_venue_shots_avg_10": 8.4,
+          "away_sot_avg_10": 3.5,
+          "away_venue_sot_avg_10": 2.6,
+          "rest_difference": 0
+        },
+        "form": {
+          "home": [
+            {
+              "date": "2026-08-15",
+              "opponent": "Preston",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 1.0,
+              "shots": 15.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "QPR",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 0.0,
+              "goals_against": 0.0,
+              "shots": 2.0,
+              "sot": 0.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "Lincoln",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 1.0,
+              "shots": 21.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-09-01",
+              "opponent": "Sheffield United",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 2.0,
+              "goals_against": 3.0,
+              "shots": 18.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Millwall",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 4.0,
+              "shots": 13.0,
+              "sot": 4.0
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-05-02",
+              "opponent": "Blackpool",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 0.0,
+              "goals_against": 1.0,
+              "shots": 13.0,
+              "sot": 0.0
+            },
+            {
+              "date": "2026-08-15",
+              "opponent": "Luton",
+              "venue": "home",
+              "points": 0.0,
+              "goals_for": 3.0,
+              "goals_against": 4.0,
+              "shots": 17.0,
+              "sot": 5.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "AFC Wimbledon",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 0.0,
+              "goals_against": 0.0,
+              "shots": 12.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-09-02",
+              "opponent": "Mansfield",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 5.0,
+              "goals_against": 0.0,
+              "shots": 20.0,
+              "sot": 7.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Blackpool",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 3.0,
+              "goals_against": 1.0,
+              "shots": 19.0,
+              "sot": 6.0
+            }
+          ]
+        },
+        "activeModel": "Marknadsbaseline",
+        "modelVersion": "2.0",
+        "newsAffectsProbabilities": false,
+        "edge": {
+          "home": 0.03930651872399443,
+          "draw": -0.026477115117891803,
+          "away": -0.01282940360610263
+        },
+        "value": {
+          "home": 1.085448953747814,
+          "draw": 0.9086996030417523,
+          "away": 0.9486823855755895
+        },
+        "valueFloorApplied": false,
+        "recommendation": [
+          "1"
+        ],
+        "mostLikely": "1",
+        "bestValue": "1",
+        "explanation": "Spik 1: tecknet kombinerar modellsannolikhet med lägre streckning hos Svenska Folket."
+      },
+      {
+        "homeTeam": "Sunderland",
+        "awayTeam": "Hull",
+        "date": "2026-09-12",
+        "league": "E1",
+        "marketOdds": {
+          "home": 2.0,
+          "draw": 3.4,
+          "away": 3.8
+        },
+        "oddsSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "number": 13,
+        "crowd": {
+          "home": 0.47,
+          "draw": 0.27,
+          "away": 0.26
+        },
+        "crowdSnapshot": {
+          "recorded_at": null,
+          "valid_at": null,
+          "source": "demo"
+        },
+        "matchId": "eca5703b2c0f2db1d15ddeac3fe378d9",
+        "model": {
+          "home": 0.47291361639824303,
+          "draw": 0.2781844802342606,
+          "away": 0.24890190336749632
+        },
+        "market": {
+          "home": 0.47291361639824303,
+          "draw": 0.2781844802342606,
+          "away": 0.24890190336749632
+        },
+        "source": "market_baseline",
+        "warnings": [],
+        "features": {
+          "league": "E1",
+          "home_elo_before": 1688.6311249445391,
+          "away_elo_before": 1583.908534036471,
+          "elo_difference": 169.722590908068,
+          "market_prob_home": 0.47291361639824303,
+          "market_prob_draw": 0.2781844802342606,
+          "market_prob_away": 0.24890190336749632,
+          "days_since_last_match_home": 7,
+          "home_points_avg_5": 2.0,
+          "home_venue_points_avg_5": 2.0,
+          "home_goals_for_avg_5": 1.6,
+          "home_venue_goals_for_avg_5": 0.8,
+          "home_goals_against_avg_5": 1.0,
+          "home_venue_goals_against_avg_5": 1.2,
+          "home_shots_avg_5": 12.8,
+          "home_venue_shots_avg_5": 14.8,
+          "home_sot_avg_5": 3.6,
+          "home_venue_sot_avg_5": 3.2,
+          "home_points_avg_10": 1.5,
+          "home_venue_points_avg_10": 1.6,
+          "home_goals_for_avg_10": 1.3,
+          "home_venue_goals_for_avg_10": 1.0,
+          "home_goals_against_avg_10": 1.5,
+          "home_venue_goals_against_avg_10": 1.2,
+          "home_shots_avg_10": 12.6,
+          "home_venue_shots_avg_10": 13.8,
+          "home_sot_avg_10": 3.7,
+          "home_venue_sot_avg_10": 3.6,
+          "days_since_last_match_away": 7,
+          "away_points_avg_5": 2.0,
+          "away_venue_points_avg_5": 1.0,
+          "away_goals_for_avg_5": 1.2,
+          "away_venue_goals_for_avg_5": 1.2,
+          "away_goals_against_avg_5": 0.6,
+          "away_venue_goals_against_avg_5": 1.4,
+          "away_shots_avg_5": 9.4,
+          "away_venue_shots_avg_5": 12.0,
+          "away_sot_avg_5": 4.0,
+          "away_venue_sot_avg_5": 3.2,
+          "away_points_avg_10": 1.4,
+          "away_venue_points_avg_10": 1.4,
+          "away_goals_for_avg_10": 1.1,
+          "away_venue_goals_for_avg_10": 1.0,
+          "away_goals_against_avg_10": 0.9,
+          "away_venue_goals_against_avg_10": 1.2,
+          "away_shots_avg_10": 11.4,
+          "away_venue_shots_avg_10": 9.8,
+          "away_sot_avg_10": 3.8,
+          "away_venue_sot_avg_10": 2.9,
+          "rest_difference": 0
+        },
+        "form": {
+          "home": [
+            {
+              "date": "2026-05-17",
+              "opponent": "Everton",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 3.0,
+              "goals_against": 1.0,
+              "shots": 7.0,
+              "sot": 3.0
+            },
+            {
+              "date": "2026-05-24",
+              "opponent": "Chelsea",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 1.0,
+              "shots": 20.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "Ipswich",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 2.0,
+              "shots": 11.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-08-30",
+              "opponent": "Fulham",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 1.0,
+              "goals_against": 0.0,
+              "shots": 12.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Brentford",
+              "venue": "away",
+              "points": 1.0,
+              "goals_for": 1.0,
+              "goals_against": 1.0,
+              "shots": 14.0,
+              "sot": 5.0
+            }
+          ],
+          "away": [
+            {
+              "date": "2026-04-25",
+              "opponent": "Charlton",
+              "venue": "away",
+              "points": 0.0,
+              "goals_for": 1.0,
+              "goals_against": 2.0,
+              "shots": 14.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-05-02",
+              "opponent": "Norwich",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 1.0,
+              "shots": 8.0,
+              "sot": 6.0
+            },
+            {
+              "date": "2026-08-22",
+              "opponent": "Manchester United",
+              "venue": "home",
+              "points": 3.0,
+              "goals_for": 2.0,
+              "goals_against": 0.0,
+              "shots": 8.0,
+              "sot": 4.0
+            },
+            {
+              "date": "2026-08-29",
+              "opponent": "Coventry",
+              "venue": "away",
+              "points": 3.0,
+              "goals_for": 1.0,
+              "goals_against": 0.0,
+              "shots": 6.0,
+              "sot": 2.0
+            },
+            {
+              "date": "2026-09-05",
+              "opponent": "Aston Villa",
+              "venue": "home",
+              "points": 1.0,
+              "goals_for": 0.0,
+              "goals_against": 0.0,
+              "shots": 11.0,
+              "sot": 4.0
+            }
+          ]
+        },
+        "activeModel": "Marknadsbaseline",
+        "modelVersion": "2.0",
+        "newsAffectsProbabilities": false,
+        "edge": {
+          "home": 0.0029136163982430574,
+          "draw": 0.008184480234260605,
+          "away": -0.01109809663250369
+        },
+        "value": {
+          "home": 1.0061991838260491,
+          "draw": 1.0303128897565208,
+          "away": 0.9573150129519089
+        },
+        "valueFloorApplied": false,
+        "recommendation": [
+          "1"
+        ],
+        "mostLikely": "1",
+        "bestValue": "X",
+        "explanation": "Spik 1: tecknet kombinerar modellsannolikhet med lägre streckning hos Svenska Folket."
+      }
+    ],
+    "system": {
+      "budget": 256.0,
+      "mode": "optimal",
+      "rowCount": 243,
+      "cost": 243.0,
+      "costPerRow": 1.0,
+      "singles": 8,
+      "doubles": 0,
+      "triples": 5,
+      "selections": [
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1",
+          "X",
+          "2"
+        ],
+        [
+          "1"
+        ],
+        [
+          "1"
+        ]
+      ],
+      "objectiveScore": -5.899488606792626,
+      "metrics": {
+        "coverageScore": 0.6585817783773432,
+        "allCorrectProbability": 0.004384562210170992,
+        "riskScore": 0.3414182216226568,
+        "valueIndex": 0.9779348108607352
+      }
+    },
+    "insights": [
+      {
+        "title": "STARKASTE SPIK",
+        "number": 1,
+        "homeTeam": "Arsenal",
+        "awayTeam": "Everton",
+        "sign": "1",
+        "model": 0.6271714922048999,
+        "crowd": 0.72,
+        "edge": -0.0928285077951001,
+        "value": 0.8710715169512498
+      },
+      {
+        "title": "BÄSTA VÄRDETECKEN",
+        "number": 5,
+        "homeTeam": "Liverpool",
+        "awayTeam": "Newcastle",
+        "sign": "2",
+        "model": 0.1855421686746988,
+        "crowd": 0.08,
+        "edge": 0.1055421686746988,
+        "value": 2.319277108433735
+      },
+      {
+        "title": "STÖRSTA VARNING",
+        "number": 5,
+        "homeTeam": "Liverpool",
+        "awayTeam": "Newcastle",
+        "sign": "1",
+        "model": 0.5847389558232933,
+        "crowd": 0.78,
+        "edge": -0.19526104417670676,
+        "value": 0.7496653279785811
+      }
+    ],
+    "analyzedAt": "2026-09-09T19:40:43.203229+00:00"
+  },
+  "import_failures": []
+}

@@ -1,0 +1,92 @@
+{
+  "run": {
+    "configured": true,
+    "provider": "rss",
+    "extractor": "rules:evidence-v2",
+    "checked_at": "2026-09-09T19:23:47.939484+00:00",
+    "coupon_id": "demo-13",
+    "demo_fixture_context": true,
+    "queries": 65,
+    "cached_queries": 65,
+    "articles_fetched": 227,
+    "unique_articles": 218,
+    "articles_created": 0,
+    "articles_deduplicated": 9,
+    "events_created": 1,
+    "signals_extracted": 1,
+    "observations_created": 1,
+    "matches_updated": 13,
+    "matches_with_signals": 1,
+    "failed_requests": [],
+    "failed_matches": [],
+    "extraction_failures": 0,
+    "articles_irrelevant": 145,
+    "articles_missing_timestamp": 0,
+    "articles_outside_window": 72,
+    "provider_requests": 0,
+    "signals_by_type": {
+      "PLAYER_RETURN": 1
+    },
+    "source_tier_distribution": {
+      "2": 218
+    },
+    "multi_source_event_fraction": 0.0,
+    "total_counts": {
+      "articles": 218,
+      "article_versions": 219,
+      "events": 1,
+      "observations": 1,
+      "players": 0,
+      "snapshots": 39,
+      "extractions": 293
+    }
+  },
+  "example": {
+    "observation": {
+      "id": "256a995801eb800f45ed890a7580e3c8",
+      "event_id": "616a80016f59b329b23b427b4a51cc81",
+      "match_id": "89c8c431be394d43f6087358790bc116",
+      "team_id": "reading",
+      "team": "Reading",
+      "player_id": null,
+      "player": null,
+      "type": "PLAYER_RETURN",
+      "direction": "positive",
+      "certainty": 0.55,
+      "status": "reported",
+      "summary": "Reading Winger back after a lengthy injury.",
+      "evidence": "Reading Winger back after a lengthy injury.",
+      "occurred_at": null,
+      "article_id": "c1b491384c35fe736515c0efd9ea5232",
+      "article_version_id": "f6cb1355ab28aadaf201b013ae14a6c5",
+      "publisher": "bbc",
+      "source_tier": 2,
+      "source_quality": 0.85,
+      "content_hash": "8e61100d99c4827c77a1f03663f040d478837eef277f414466a6be823b06135f",
+      "first_published_at": "2026-09-09T07:02:00+00:00",
+      "recorded_at": "2026-09-09T19:23:47.939484+00:00",
+      "extractor": "rules:evidence-v2",
+      "match_relevance": 1.0
+    },
+    "article": {
+      "id": "c1b491384c35fe736515c0efd9ea5232",
+      "version_id": "f6cb1355ab28aadaf201b013ae14a6c5",
+      "title": "Reading FC",
+      "url": "https://bbc.co.uk/sounds/play/p0p8nzmg",
+      "publisher": "bbc",
+      "published_at": "2026-09-09T07:02:00Z",
+      "retrieved_at": "2026-09-09T19:19:23.290157Z",
+      "content": "",
+      "snippet": "Reading Winger back after a lengthy injury.",
+      "source_tier": 2,
+      "detected_team_ids": [
+        "reading"
+      ],
+      "query": "\"Reading\" team news injuries suspension",
+      "raw_path": "raw\\d9757c37b92630869dc7e67f328564a0215f7be653d0e4abf8af20789023a4c5.raw",
+      "content_hash": "8e61100d99c4827c77a1f03663f040d478837eef277f414466a6be823b06135f"
+    }
+  },
+  "live_llm_verified": false,
+  "outcomes_joined": false
+}

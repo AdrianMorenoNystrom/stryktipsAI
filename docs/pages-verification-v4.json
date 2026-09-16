@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-09-09T21:54:13.424Z",
+  "prefix": "/stryktips-test/",
+  "api": "real local production API",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "thirteen_matches": true,
+      "no_horizontal_overflow": true,
+      "hash_route_reload": true,
+      "missing_data_never_demo": true,
+      "page_errors": 0
+    },
+    {
+      "viewport": "mobile",
+      "thirteen_matches": true,
+      "no_horizontal_overflow": true,
+      "hash_route_reload": true,
+      "missing_data_never_demo": true,
+      "page_errors": 0
+    }
+  ]
+}

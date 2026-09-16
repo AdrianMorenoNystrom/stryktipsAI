@@ -1,0 +1,410 @@
+{
+  "verified_at": "2026-09-09T21:55:49.645650+00:00",
+  "deployment": "local production container and isolated Postgres; no public deployment",
+  "health": {
+    "api": "healthy",
+    "database": "postgres",
+    "svenska_spel_provider": {
+      "provider": "svenska-spel",
+      "status": "Healthy",
+      "last_successful_fetch": "2026-09-09T21:54:56.962846+00:00",
+      "last_attempt": "2026-09-09T21:54:56.962846+00:00",
+      "issue": null
+    },
+    "odds_provider": {
+      "configured": false,
+      "status": "Unavailable",
+      "last_successful_fetch": null,
+      "last_attempt": null,
+      "quota": null
+    },
+    "last_collection": {
+      "run_id": "e302e6c9d79a410198df7110b8ed4b0a",
+      "started_at": "2026-09-09T21:54:56.610182+00:00",
+      "completed_at": "2026-09-09T21:54:58.224874+00:00",
+      "draw_number": 4970,
+      "crowd_status": "saved",
+      "market_status": {
+        "matched": [],
+        "unresolved": [],
+        "errors": [
+          "Bookmakerprovider är inte konfigurerad; märkta fallbackodds används där de finns."
+        ],
+        "configured": false
+      },
+      "prediction_status": {
+        "saved": 13,
+        "reused": false,
+        "snapshot_set": "3c2be2a417a745f597eadb8c7d190408"
+      },
+      "optimizer_status": {
+        "saved": 1,
+        "reused": false,
+        "snapshot_id": "3c2be2a417a745f597eadb8c7d190408",
+        "budget": 256,
+        "profile": "optimal"
+      },
+      "result_status": [],
+      "errors": [
+        "Bookmakerprovider är inte konfigurerad; märkta fallbackodds används där de finns."
+      ],
+      "status": "partial",
+      "duration_seconds": 1.615
+    }
+  },
+  "database_engine": "postgres",
+  "migrations": [
+    {
+      "version": "001_draw_archive.sql",
+      "checksum": "4722d75676d41ee1acaca3d2c4c469b7553c02823b80b968595492e6621c556b"
+    },
+    {
+      "version": "002_market_collection.sql",
+      "checksum": "874ba5b4af543dd02b52438c5b79a75253fbfa4288a5076762530ce31048f150"
+    }
+  ],
+  "counts": {
+    "stryktipset_draws": 17,
+    "stryktipset_matches": 221,
+    "draw_observations": 21,
+    "crowd_snapshots": 273,
+    "market_snapshots": 91,
+    "consensus_snapshots": 0,
+    "bookmaker_observations": 0,
+    "prediction_snapshots": 520,
+    "optimizer_snapshots": 40,
+    "result_observations": 16,
+    "match_results": 208,
+    "draw_payouts": 64,
+    "provider_raw_payloads": 37,
+    "odds_requests": 0,
+    "collection_runs": 2,
+    "provider_raw_blobs": 37
+  },
+  "draw": {
+    "draw_number": 4970,
+    "sales_close_at": "2026-09-12T13:59:00Z",
+    "retrieved_at": "2026-09-09T21:54:56.962846Z"
+  },
+  "mapping": {
+    "references": 26,
+    "mapped": 26,
+    "unmapped": [],
+    "supported_model_matches": 13
+  },
+  "sources": {
+    "1": "svenska_spel_odds",
+    "2": "svenska_spel_odds",
+    "3": "svenska_spel_odds",
+    "4": "svenska_spel_odds",
+    "5": "svenska_spel_odds",
+    "6": "svenska_spel_odds",
+    "7": "svenska_spel_odds",
+    "8": "svenska_spel_odds",
+    "9": "svenska_spel_odds",
+    "10": "svenska_spel_odds",
+    "11": "svenska_spel_odds",
+    "12": "svenska_spel_odds",
+    "13": "svenska_spel_odds"
+  },
+  "matches": [
+    {
+      "number": 1,
+      "home": "Sunderland",
+      "away": "Arsenal",
+      "market_source": "svenska_spel_odds",
+      "bookmaker_count": 0,
+      "probabilities": {
+        "away": 0.6489675516224188,
+        "draw": 0.22123893805309733,
+        "home": 0.12979351032448377
+      }
+    },
+    {
+      "number": 2,
+      "home": "Tottenham",
+      "away": "Everton",
+      "market_source": "svenska_spel_odds",
+      "bookmaker_count": 0,
+      "probabilities": {
+        "away": 0.2533253239509139,
+        "draw": 0.2709173603363941,
+        "home": 0.4757573157126921
+      }
+    },
+    {
+      "number": 3,
+      "home": "Liverpool",
+      "away": "Fulham",
+      "market_source": "svenska_spel_odds",
+      "bookmaker_count": 0,
+      "probabilities": {
+        "away": 0.14988529186846802,
+        "draw": 0.187356614835585,
+        "home": 0.6627580932959469
+      }
+    },
+    {
+      "number": 4,
+      "home": "Chelsea",
+      "away": "Hull",
+      "market_source": "svenska_spel_odds",
+      "bookmaker_count": 0,
+      "probabilities": {
+        "away": 0.07400346620450605,
+        "draw": 0.13743500866551123,
+        "home": 0.7885615251299826
+      }
+    },
+    {
+      "number": 5,
+      "home": "Crystal Palace",
+      "away": "Ipswich",
+      "market_source": "svenska_spel_odds",
+      "bookmaker_count": 0,
+      "probabilities": {
+        "away": 0.24349271409898499,
+        "draw": 0.2465749003534025,
+        "home": 0.5099323855476126
+      }
+    },
+    {
+      "number": 6,
+      "home": "Aston Villa",
+      "away": "Nottingham Forest",
+      "market_source": "svenska_spel_odds",
+      "bookmaker_count": 0,
+      "probabilities": {
+        "away": 0.2834648474377015,
+        "draw": 0.2679325270301562,
+        "home": 0.4486026255321422
+      }
+    },
+    {
+      "number": 7,
+      "home": "Bournemouth",
+      "away": "Brentford",
+      "market_source": "svenska_spel_odds",
+      "bookmaker_count": 0,
+      "probabilities": {
+        "away": 0.3569734297264312,
+        "draw": 0.26446200568465184,
+        "home": 0.37856456458891696
+      }
+    },
+    {
+      "number": 8,
+      "home": "Blackburn",
+      "away": "Millwall",
+      "market_source": "svenska_spel_odds",
+      "bookmaker_count": 0,
+      "probabilities": {
+        "away": 0.4048283158603443,
+        "draw": 0.279272867173223,
+        "home": 0.3158988169664326
+      }
+    },
+    {
+      "number": 9,
+      "home": "Charlton",
+      "away": "Portsmouth",
+      "market_source": "svenska_spel_odds",
+      "bookmaker_count": 0,
+      "probabilities": {
+        "away": 0.3354341709213206,
+        "draw": 0.2972462806933549,
+        "home": 0.3673195483853245
+      }
+    },
+    {
+      "number": 10,
+      "home": "Middlesbrough",
+      "away": "Norwich",
+      "market_source": "svenska_spel_odds",
+      "bookmaker_count": 0,
+      "probabilities": {
+        "away": 0.24020008500343284,
+        "draw": 0.24324059240853954,
+        "home": 0.5165593225880276
+      }
+    },
+    {
+      "number": 11,
+      "home": "Preston",
+      "away": "Lincoln",
+      "market_source": "svenska_spel_odds",
+      "bookmaker_count": 0,
+      "probabilities": {
+        "away": 0.29648147107840384,
+        "draw": 0.2714266988745951,
+        "home": 0.4320918300470011
+      }
+    },
+    {
+      "number": 12,
+      "home": "Southampton",
+      "away": "Bristol City",
+      "market_source": "svenska_spel_odds",
+      "bookmaker_count": 0,
+      "probabilities": {
+        "away": 0.20205580029368575,
+        "draw": 0.23994126284875186,
+        "home": 0.5580029368575625
+      }
+    },
+    {
+      "number": 13,
+      "home": "Watford",
+      "away": "Stoke",
+      "market_source": "svenska_spel_odds",
+      "bookmaker_count": 0,
+      "probabilities": {
+        "away": 0.3345473770780708,
+        "draw": 0.28761087939846086,
+        "home": 0.3778417435234683
+      }
+    }
+  ],
+  "active_model": "market",
+  "model_equals_market": true,
+  "system": {
+    "budget": 256.0,
+    "cost": 243.0,
+    "costPerRow": 1.0,
+    "doubles": 0,
+    "metrics": {
+      "allCorrectProbability": 0.009601503534532398,
+      "coverageScore": 0.6995122536687736,
+      "riskScore": 0.30048774633122644,
+      "valueIndex": 1.024923239095312
+    },
+    "mode": "optimal",
+    "objectiveScore": -4.643091903445524,
+    "rowCount": 243,
+    "selections": [
+      [
+        "2"
+      ],
+      [
+        "1"
+      ],
+      [
+        "1"
+      ],
+      [
+        "1"
+      ],
+      [
+        "1"
+      ],
+      [
+        "1",
+        "X",
+        "2"
+      ],
+      [
+        "1",
+        "X",
+        "2"
+      ],
+      [
+        "2"
+      ],
+      [
+        "1",
+        "X",
+        "2"
+      ],
+      [
+        "1"
+      ],
+      [
+        "1",
+        "X",
+        "2"
+      ],
+      [
+        "1"
+      ],
+      [
+        "1",
+        "X",
+        "2"
+      ]
+    ],
+    "singles": 8,
+    "triples": 5
+  },
+  "system_snapshot_id": "3c2be2a417a745f597eadb8c7d190408",
+  "raw_bytes_hash_verified": true,
+  "production_demo_disabled": true,
+  "shared_write_denied_without_token": true,
+  "collection_runs": [
+    {
+      "run_id": "6d683cf2f29044c286ca021564b1e380",
+      "started_at": "2026-09-09T21:29:31.531542+00:00",
+      "completed_at": "2026-09-09T21:29:36.240432+00:00",
+      "draw_number": 4970,
+      "crowd_status": "saved",
+      "market_status": {
+        "matched": [],
+        "unresolved": [],
+        "errors": [
+          "Bookmakerprovider är inte konfigurerad; märkta fallbackodds används där de finns."
+        ],
+        "configured": false
+      },
+      "prediction_status": {
+        "saved": 13,
+        "snapshot_set": "b49101aef35b44e18ae4ca9c22e0b84a"
+      },
+      "optimizer_status": {
+        "saved": 1,
+        "snapshot_id": "b49101aef35b44e18ae4ca9c22e0b84a",
+        "budget": 256,
+        "profile": "optimal"
+      },
+      "result_status": [],
+      "errors": [
+        "Bookmakerprovider är inte konfigurerad; märkta fallbackodds används där de finns."
+      ],
+      "status": "partial",
+      "duration_seconds": 4.709
+    },
+    {
+      "run_id": "e302e6c9d79a410198df7110b8ed4b0a",
+      "started_at": "2026-09-09T21:54:56.610182+00:00",
+      "completed_at": "2026-09-09T21:54:58.224874+00:00",
+      "draw_number": 4970,
+      "crowd_status": "saved",
+      "market_status": {
+        "matched": [],
+        "unresolved": [],
+        "errors": [
+          "Bookmakerprovider är inte konfigurerad; märkta fallbackodds används där de finns."
+        ],
+        "configured": false
+      },
+      "prediction_status": {
+        "saved": 13,
+        "reused": false,
+        "snapshot_set": "3c2be2a417a745f597eadb8c7d190408"
+      },
+      "optimizer_status": {
+        "saved": 1,
+        "reused": false,
+        "snapshot_id": "3c2be2a417a745f597eadb8c7d190408",
+        "budget": 256,
+        "profile": "optimal"
+      },
+      "result_status": [],
+      "errors": [
+        "Bookmakerprovider är inte konfigurerad; märkta fallbackodds används där de finns."
+      ],
+      "status": "partial",
+      "duration_seconds": 1.615
+    }
+  ],
+  "real_bookmaker_verification": "unavailable without configured credentials",
+  "backend_restart_preserved_counts_and_system": true
+}
