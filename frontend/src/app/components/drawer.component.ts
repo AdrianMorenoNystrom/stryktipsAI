@@ -105,6 +105,7 @@ import { MarketHistoryComponent } from "./market-history.component";
                 <dd>{{ match().bestValue }}</dd>
               </div>
             </dl>
+            <div class="table-scroll" tabindex="0" role="region" aria-label="Jämförelse med Svenska Folket">
             <table>
               <caption>
                 Skillnad mot Svenska Folket
@@ -129,6 +130,7 @@ import { MarketHistoryComponent } from "./market-history.component";
                 }
               </tbody>
             </table>
+            </div>
             @if (match().valueFloorApplied) {
               <p class="small muted">
                 Vid streck under 0,5% används ett golv på 0,5% för värdeindex.

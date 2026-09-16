@@ -1,4 +1,5 @@
 .chance-summary {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -105,8 +106,15 @@
   background: #fff;
   font-synthesis: none;
 }
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+img,
+svg,
+canvas {
+  max-width: 100%;
 }
 body {
   margin: 0;
@@ -369,7 +377,7 @@ main {
 }
 .optimal-grid {
   display: grid;
-  grid-template-columns: repeat(13, 1fr);
+  grid-template-columns: repeat(13, minmax(0, 1fr));
   gap: 8px;
 }
 .optimal-cell {
@@ -559,11 +567,13 @@ main {
 }
 .match-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
 }
 .match-card {
   padding: 24px;
+  min-width: 0;
+  container-type: inline-size;
 }
 .match-heading {
   display: flex;
@@ -575,6 +585,8 @@ main {
   margin: 0;
   font-size: 16px;
   flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 .match-heading h3 > span {
   font-weight: 400;
@@ -600,6 +612,7 @@ main {
   color: var(--secondary);
 }
 .probability-row {
+  position: relative;
   display: grid;
   grid-template-columns: minmax(110px, 1.6fr) repeat(3, 1fr);
   align-items: center;
@@ -885,6 +898,9 @@ select {
 }
 .table-scroll {
   overflow-x: auto;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 table {
   width: 100%;
@@ -1052,6 +1068,8 @@ code {
 }
 .drawer-content {
   padding: 24px 28px 40px;
+  container-type: inline-size;
+  overflow-wrap: anywhere;
 }
 .drawer-content .probability-row {
   padding: 16px 0;
@@ -1129,6 +1147,9 @@ code {
   }
 }
 @media (max-width: 1100px) {
+  .optimal-grid {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
   .nav-inner {
     gap: 28px;
   }
@@ -1281,7 +1302,7 @@ code {
     margin-bottom: 20px;
   }
   .optimal-grid {
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(7, minmax(0, 1fr));
     gap: 6px;
   }
   .optimal-cell {
@@ -1397,7 +1418,7 @@ code {
     font-size: 13px;
   }
   .match-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 12px;
   }
   .match-card {
@@ -1733,7 +1754,6 @@ code {
 /* Launch: readable defaults; detail only on demand. */
 .inline-info {
   display: inline;
-  position: relative;
   font-size: 12px;
   letter-spacing: normal;
 }
@@ -1750,8 +1770,8 @@ code {
   position: absolute;
   z-index: 20;
   left: 0;
-  top: 20px;
-  width: min(270px, 65vw);
+  top: 100%;
+  width: min(270px, 100%);
   background: #fff;
   padding: 16px;
   border: 1px solid #ccd9e4;
@@ -1778,6 +1798,12 @@ code {
 }
 .budget-main {
   width: 100%;
+}
+.budget-main .segmented {
+  flex-wrap: wrap;
+}
+.budget-main .segmented button {
+  flex: 1 0 65px;
 }
 .budget-main h3 {
   margin: 0 0 14px;
@@ -1843,14 +1869,10 @@ code {
   }
   .budget-main .segmented button {
     min-height: 44px;
-    flex: 1;
+    flex: 1 0 60px;
   }
   .budget-main .segmented {
     width: 100%;
-  }
-  .inline-info p {
-    left: auto;
-    right: -80px;
   }
   .system-changes {
     margin-top: 20px;
@@ -1860,5 +1882,27 @@ code {
   }
   .insight-card {
     min-height: 170px;
+  }
+}
+/* Stack labels when the card itself is narrow, including tablet columns. */
+@container (max-width: 360px) {
+  .probability-row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+  .probability-row > span:first-child {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 360px) {
+  .optimal-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  .insight-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .insight-numbers {
+    margin-top: 12px;
+    text-align: left;
   }
 }

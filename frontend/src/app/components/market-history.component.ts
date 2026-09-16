@@ -97,6 +97,7 @@ interface History {
       <app-crowd-history [number]="number()" />
       <details>
         <summary>Tidigare sparade sannolikheter</summary>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="Tidigare sparade sannolikheter">
         <table>
           <thead>
             <tr>
@@ -121,6 +122,7 @@ interface History {
             }
           </tbody>
         </table>
+        </div>
       </details>
     }`,
 })
